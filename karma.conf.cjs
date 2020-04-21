@@ -13,7 +13,10 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       "https://cdn.jsdelivr.net/npm/systemjs/dist/system.js",
-      { pattern: "browser-test/**/*.js", watched: true, type: "module" },
+      "https://cdn.jsdelivr.net/npm/es-module-shims/dist/es-module-shims.min.js",
+      "browser-test/systemjs-setup.js",
+      "browser-test/module-shims-setup.js",
+      { pattern: "browser-test/test.js", watched: true, type: "module-shim" },
       { pattern: "./**/*.*", watched: true, included: false, served: true }
     ],
 

@@ -1,9 +1,7 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
+  "name": "@esm-bundle/angular-core",
+  "version": "9.1.2",
   "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -27,16 +25,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/angular-core.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/angular-core/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/angular-core#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.0.0"
+    "@angular/core": "^9.1.2",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "esm-bundle-scripts": "1.0.0",
+    "rxjs": "npm:@esm-bundle/rxjs"
   }
 }
