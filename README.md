@@ -14,21 +14,37 @@ Upstream repo at https://github.com/angular/angular.
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es5/angular-core.js
 
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es5/angular-core.min.js
+
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es2015/angular-core.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es2015/angular-core.min.js
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es5/angular-core.js
 
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es5/angular-core.min.js
+
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es2015/angular-core.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es2015/angular-core.min.js
 
 ## Unpkg
 
 https://unpkg.com/@esm-bundle/angular-core/esm/es5/angular-core.js
 
+https://unpkg.com/@esm-bundle/angular-core/esm/es5/angular-core.min.js
+
 https://unpkg.com/@esm-bundle/angular-core/esm/es2015/angular-core.js
+
+https://unpkg.com/@esm-bundle/angular-core/esm/es2015/angular-core.min.js
 
 https://unpkg.com/@esm-bundle/angular-core/system/es5/angular-core.js
 
+https://unpkg.com/@esm-bundle/angular-core/system/es5/angular-core.min.js
+
 https://unpkg.com/@esm-bundle/angular-core/system/es2015/angular-core.js
+
+https://unpkg.com/@esm-bundle/angular-core/system/es2015/angular-core.min.js
 
 ## Npm
 
