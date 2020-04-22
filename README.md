@@ -12,7 +12,7 @@ Upstream repo at https://github.com/angular/angular.
 
 ## JS Delivr
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angularcore.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.js
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.min.js
 
