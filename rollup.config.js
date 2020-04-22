@@ -43,7 +43,7 @@ function createConfig({ format, target, minify, resolvedRxjs }) {
 
 export default () => {
   const rxjsDep = packageJson.devDependencies["rxjs"];
-  const resolvedRxjs = rxjsDep.slice(rxjsDep.lastIndexOf("@" + 1));
+  const resolvedRxjs = rxjsDep.slice(rxjsDep.lastIndexOf("@") + 1);
 
   return [
     createConfig({
