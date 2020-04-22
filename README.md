@@ -1,6 +1,6 @@
 # angular-core
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular-core.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular-core) [![build status](https://travis-ci.com/esm-bundle/angular-core.svg?branch=master)](https://travis-ci.com/esm-bundle/angular-core) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular-core/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular-core)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__core.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__core) [![build status](https://travis-ci.com/esm-bundle/angular__core.svg?branch=master)](https://travis-ci.com/esm-bundle/angular__core) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__core/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__core)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
@@ -12,48 +12,48 @@ Upstream repo at https://github.com/angular/angular.
 
 ## JS Delivr
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es5/angular-core.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angularcore.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es5/angular-core.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es2015/angular-core.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/esm/es2015/angular-core.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es5/angular-core.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es5/angular-core.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es5/angular-core.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es5/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es2015/angular-core.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/angular-core.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular-core/system/es2015/angular-core.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/angular-core.min.js
 
 ## Unpkg
 
-https://unpkg.com/@esm-bundle/angular-core/esm/es5/angular-core.js
+https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.js
 
-https://unpkg.com/@esm-bundle/angular-core/esm/es5/angular-core.min.js
+https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.min.js
 
-https://unpkg.com/@esm-bundle/angular-core/esm/es2015/angular-core.js
+https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.js
 
-https://unpkg.com/@esm-bundle/angular-core/esm/es2015/angular-core.min.js
+https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.min.js
 
-https://unpkg.com/@esm-bundle/angular-core/system/es5/angular-core.js
+https://unpkg.com/@esm-bundle/angular__core/system/es5/angular-core.js
 
-https://unpkg.com/@esm-bundle/angular-core/system/es5/angular-core.min.js
+https://unpkg.com/@esm-bundle/angular__core/system/es5/angular-core.min.js
 
-https://unpkg.com/@esm-bundle/angular-core/system/es2015/angular-core.js
+https://unpkg.com/@esm-bundle/angular__core/system/es2015/angular-core.js
 
-https://unpkg.com/@esm-bundle/angular-core/system/es2015/angular-core.min.js
+https://unpkg.com/@esm-bundle/angular__core/system/es2015/angular-core.min.js
 
 ## Npm
 
 ```sh
-npm install --save @angular/core@npm:@esm-bundle/angular-core
+npm install --save @angular/core@npm:@esm-bundle/angular__core
 ```
 
 ## Yarn
 
 ```sh
-yarn add @angular/core@npm:@esm-bundle/angular-core
+yarn add @angular/core@npm:@esm-bundle/angular__core
 ```
