@@ -10,7 +10,19 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 Upstream repo at https://github.com/angular/angular.
 
+## Resolved URLs
+
+Resolved URLs refer to angular core's dependency on rxjs being resolved to a valid URL instead of the bare specifier `rxjs`.
+
 ## JS Delivr
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.resolved.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.resolved.min.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.min.js
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.js
 
@@ -29,6 +41,14 @@ https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/angular-cor
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/angular-core.min.js
 
 ## Unpkg
+
+https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.resolved.js
+
+https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.resolved.min.js
+
+https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.js
+
+https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.min.js
 
 https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.js
 
