@@ -4988,10 +4988,10 @@ rxjs@^6.5.2, rxjs@^6.5.3:
   dependencies:
     tslib "^1.9.0"
 
-"rxjs@npm:@esm-bundle/rxjs@6.5.5":
-  version "6.5.5"
-  resolved "https://registry.yarnpkg.com/@esm-bundle/rxjs/-/rxjs-6.5.5.tgz#44ecaa86fd9822307c4804432462a13d79938d31"
-  integrity sha512-28Gp/+N1SHBMVMCop4fbbwPQO3v6wQmo7kjwTWon+D6cRENu1P6VCigoAbtq5MtvctoB0XNBB1zFMZV+gF3sIA==
+"rxjs@npm:@esm-bundle/rxjs@6.5.5-fix.1":
+  version "6.5.5-fix.1"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/rxjs/-/rxjs-6.5.5-fix.1.tgz#af732eee1981c8cdf45eb601c6bc3c1791349b15"
+  integrity sha512-qJI7Zay8Rd+efTa0xGuk2VNN6wgyjPktCAY7M1WmsRQoyw0Tt22vI/D/P67dX+HAUsAP3HeG8Cn/KNuSF7TivQ==
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.0"
