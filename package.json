@@ -40,6 +40,6 @@
     "@angular/core": "9.1.11",
     "@rollup/plugin-node-resolve": "8.1.0",
     "esm-bundle-scripts": "1.2.0",
-    "rxjs": "npm:@esm-bundle/rxjs@6.5.5-fix.1"
+    "rxjs": "npm:@esm-bundle/rxjs@6.6.0"
   }
 }
