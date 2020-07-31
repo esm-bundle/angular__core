@@ -5029,10 +5029,10 @@ rxjs@^6.5.2, rxjs@^6.5.3:
   dependencies:
     tslib "^1.9.0"
 
-"rxjs@npm:@esm-bundle/rxjs@6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@esm-bundle/rxjs/-/rxjs-6.6.1.tgz#16f5f7a4f2e946587e4e7fc64210b4a8579f27c3"
-  integrity sha512-4J5QS5OGJIMWBCUreMmWGD65YCoQlEnIpJBzIZUJehC4LwGSUBsB5XeLV07CNMDu5jLsbXo69pGyy3rqMkX1PQ==
+"rxjs@npm:@esm-bundle/rxjs@6.6.2":
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/rxjs/-/rxjs-6.6.2.tgz#2d163a3d7e62f08c72acf41083073a761bc020e8"
+  integrity sha512-6vTiMa9JY8rufYzjqhYRjZHH0+JSxisdKEsXDRCB4CtTf9KOseV9zt8p3fCacWM5KL7nGSJ3Ol2djzi12BwFHw==
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.0"
