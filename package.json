@@ -38,7 +38,7 @@
   "homepage": "https://github.com/esm-bundle/angular__core#readme",
   "devDependencies": {
     "@angular/core": "9.1.12",
-    "@rollup/plugin-node-resolve": "10.0.0",
+    "@rollup/plugin-node-resolve": "11.0.0",
     "esm-bundle-scripts": "1.2.0",
     "rxjs": "npm:@esm-bundle/rxjs@6.6.3"
   }
