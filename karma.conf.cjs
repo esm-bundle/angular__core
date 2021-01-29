@@ -13,10 +13,8 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       "https://cdn.jsdelivr.net/npm/systemjs@6.3.1/dist/system.js",
-      "https://cdn.jsdelivr.net/npm/es-module-shims/dist/es-module-shims.min.js",
       "browser-test/systemjs-setup.js",
-      "browser-test/module-shims-setup.js",
-      { pattern: "browser-test/test.js", watched: true, type: "module-shim" },
+      { pattern: "browser-test/test.js", watched: true, type: "script" },
       { pattern: "./**/*.*", watched: true, included: false, served: true }
     ],
 
@@ -54,6 +52,11 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
+
+    plugins: [
+      'karma-jasmine',
+      'karma-firefox-launcher'
+    ],
 
     // Concurrency level
     // how many browser should be started simultaneous
