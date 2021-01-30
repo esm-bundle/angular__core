@@ -1,4 +1,6 @@
 {
+  "files": ["src/index.js"],
+  "exclude": ["system/**"],
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
@@ -11,8 +13,8 @@
     "allowJs": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
-    "lib": ["es2018", "dom"]
+    "target": "es2020",
+    "lib": ["es2020", "dom"]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

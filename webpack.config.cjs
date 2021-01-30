@@ -1,29 +1,39 @@
-const AotPlugin = require("@ngtools/webpack").AngularCompilerPlugin;
+const AngularCompilerPlugin = require("@ngtools/webpack").AngularCompilerPlugin;
 const path = require("path");
 
 module.exports = [
-  // angular 11 doesn't support IE11
-  // createConfig('esm5'),
-  createConfig("esm2015"),
+  createConfig(true),
+  createConfig(false),
 ];
 
-function createConfig(type) {
-  const entryModule = require.resolve(`@angular/core/f${type}/core.js`);
-
+function createConfig(isProduction) {
+  const entryModule = require.resolve('@angular/core/fesm2015/core.js')
   return {
     entry: entryModule,
-    mode: "production",
+    mode: isProduction ? "production" : 'development',
     output: {
-      path: path.resolve(__dirname, `system/${type}`),
-      filename: `angular-core.min.js`,
+      path: path.resolve(__dirname, `system/es2015`),
+      filename: `angular-core.${isProduction ? 'min.' : ''}js`,
       libraryTarget: "system",
     },
+    devtool: 'source-map',
+    module: {
+      rules: [
+        {
+          test: /.*\.js$/,
+          exclude: /node_modules/,
+          loader: '@ngtools/webpack'
+        }
+      ],
+    },
     plugins: [
-      new AotPlugin({
+      new AngularCompilerPlugin({
         skipCodeGeneration: false,
-        tsConfigPath: path.resolve(__dirname, `tsconfig.${type}.json`),
+        sourceMap: true,
+        tsConfigPath: path.resolve(__dirname, `tsconfig.es2015.json`),
         entryModule,
       }),
     ],
+    externals: ['@angular/common', '@angular/router', '@angular/platform-browser', /^rxjs\/?.*$/]
   };
 }
