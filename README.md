@@ -10,61 +10,29 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 Upstream repo at https://github.com/angular/angular.
 
-## Resolved URLs
+### Latest Version
 
-Resolved URLs refer to angular core's dependency on rxjs being resolved to a valid URL instead of the bare specifier `rxjs`.
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/ivy/angular-core.js
 
-## JS Delivr
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/ivy/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.resolved.js
+https://unpkg.com/@esm-bundle/angular__core/system/es2015/ivy/angular-core.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.resolved.min.js
+https://unpkg.com/@esm-bundle/angular__core/system/es2015/ivy/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.js
+### Specific Version
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core@11.1.1/system/es2015/ivy/angular-core.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core@11.1.1/system/es2015/ivy/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es5/angular-core.min.js
+https://unpkg.com/@esm-bundle/angular__core@11.1.1/system/es2015/ivy/angular-core.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.js
+https://unpkg.com/@esm-bundle/angular__core@11.1.1/system/es2015/ivy/angular-core.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/esm/es2015/angular-core.min.js
+## Need a build that doesn't exist yet?
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es5/angular-core.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es5/angular-core.min.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/angular-core.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/angular-core.min.js
-
-## Unpkg
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.resolved.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.resolved.min.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.resolved.min.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es5/angular-core.min.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.js
-
-https://unpkg.com/@esm-bundle/angular__core/esm/es2015/angular-core.min.js
-
-https://unpkg.com/@esm-bundle/angular__core/system/es5/angular-core.js
-
-https://unpkg.com/@esm-bundle/angular__core/system/es5/angular-core.min.js
-
-https://unpkg.com/@esm-bundle/angular__core/system/es2015/angular-core.js
-
-https://unpkg.com/@esm-bundle/angular__core/system/es2015/angular-core.min.js
+If you need an es5 build, non-ivy build, or a build for a different version of Angular, please open a Github issue.
 
 ## Npm
 
