@@ -4,7 +4,7 @@
   "description": "Repo to test esm-bundle's automatic publishing",
   "type": "module",
   "exports": {
-    ".": "./esm/es2015/angular-core.js"
+    ".": "./es2015/ivy/angular-core.js"
   },
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -30,8 +30,8 @@
     "type": "git",
     "url": "git+https://github.com/esm-bundle/angular__core.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Joel Denning",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/esm-bundle/angular__core/issues"
   },
