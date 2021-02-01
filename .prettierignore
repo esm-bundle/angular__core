@@ -10,3 +10,4 @@ system/
 karma.conf.cjs
 .nvmrc
 pnpm-lock.yaml
+es2015
