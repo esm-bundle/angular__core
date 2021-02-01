@@ -565,7 +565,7 @@ packages:
       integrity: sha512-8Broas6vTtW4GIXTAHDoE32hnN2M5ykgCpWGbuXHQ15vEMqr23pB76e/GZcYsZCHALv50ktd24qhEyKr6wBtow==
   /@octokit/auth-token/2.4.5:
     dependencies:
-      '@octokit/types': 6.6.0
+      '@octokit/types': 6.7.1
     dev: true
     resolution:
       integrity: sha512-BpGYsPgJt05M7/L/5FoE1PiAbdxXFZkX/3kDYcsvd1v6UhlnE5e96dTDr0ezX/EFwciQxf3cNV0loipsURU+WA==
@@ -573,16 +573,16 @@ packages:
     dependencies:
       '@octokit/auth-token': 2.4.5
       '@octokit/graphql': 4.5.9
-      '@octokit/request': 5.4.13
-      '@octokit/types': 6.6.0
-      before-after-hook: 2.1.0
+      '@octokit/request': 5.4.14
+      '@octokit/types': 6.7.1
+      before-after-hook: 2.1.1
       universal-user-agent: 6.0.0
     dev: true
     resolution:
       integrity: sha512-+DCtPykGnvXKWWQI0E1XD+CCeWSBhB6kwItXqfFmNBlIlhczuDPbg+P6BtLnVBaRJDAjv+1mrUJuRsFSjktopg==
   /@octokit/endpoint/6.0.11:
     dependencies:
-      '@octokit/types': 6.6.0
+      '@octokit/types': 6.7.1
       is-plain-object: 5.0.0
       universal-user-agent: 6.0.0
     dev: true
@@ -590,20 +590,20 @@ packages:
       integrity: sha512-fUIPpx+pZyoLW4GCs3yMnlj2LfoXTWDUVPTC4V3MUEKZm48W+XYpeWSZCv+vYF1ZABUm2CqnDVf1sFtIYrj7KQ==
   /@octokit/graphql/4.5.9:
     dependencies:
-      '@octokit/request': 5.4.13
-      '@octokit/types': 6.6.0
+      '@octokit/request': 5.4.14
+      '@octokit/types': 6.7.1
       universal-user-agent: 6.0.0
     dev: true
     resolution:
       integrity: sha512-c+0yofIugUNqo+ktrLaBlWSbjSq/UF8ChAyxQzbD3X74k1vAuyLKdDJmPwVExUFSp6+U1FzWe+3OkeRsIqV0vg==
-  /@octokit/openapi-types/3.3.0:
+  /@octokit/openapi-types/3.4.1:
     dev: true
     resolution:
-      integrity: sha512-s3dd32gagPmKaSLNJ9aPNok7U+tl69YLESf6DgQz5Ml/iipPZtif3GLvWpNXoA6qspFm1LFUZX+C3SqWX/Y/TQ==
+      integrity: sha512-7Sjm3UwEAM11f+ck9+qlyEfgl8hCk5sSZBU2qcWY8+8ibowjqcwxhhtvY0/pjHPF8mcvmedFpGmmIYs2qM9/+Q==
   /@octokit/plugin-paginate-rest/2.9.0_@octokit+core@3.2.5:
     dependencies:
       '@octokit/core': 3.2.5
-      '@octokit/types': 6.6.0
+      '@octokit/types': 6.7.1
     dev: true
     peerDependencies:
       '@octokit/core': '>=2'
@@ -626,17 +626,17 @@ packages:
       integrity: sha512-az3seq9yuc0OXlNLrZ0fWTNbFuL4sN8GN1sLmovELg3+LnpWmOs3GAn2KGa6E7SKMgpCuFvJwvsHEfYasTHUxQ==
   /@octokit/request-error/2.0.5:
     dependencies:
-      '@octokit/types': 6.6.0
+      '@octokit/types': 6.7.1
       deprecation: 2.3.1
       once: 1.4.0
     dev: true
     resolution:
       integrity: sha512-T/2wcCFyM7SkXzNoyVNWjyVlUwBvW3igM3Btr/eKYiPmucXTtkxt2RBsf6gn3LTzaLSLTQtNmvg+dGsOxQrjZg==
-  /@octokit/request/5.4.13:
+  /@octokit/request/5.4.14:
     dependencies:
       '@octokit/endpoint': 6.0.11
       '@octokit/request-error': 2.0.5
-      '@octokit/types': 6.6.0
+      '@octokit/types': 6.7.1
       deprecation: 2.3.1
       is-plain-object: 5.0.0
       node-fetch: 2.6.1
@@ -644,7 +644,7 @@ packages:
       universal-user-agent: 6.0.0
     dev: true
     resolution:
-      integrity: sha512-WcNRH5XPPtg7i1g9Da5U9dvZ6YbTffw9BN2rVezYiE7couoSyaRsw0e+Tl8uk1fArHE7Dn14U7YqUDy59WaqEw==
+      integrity: sha512-VkmtacOIQp9daSnBmDI92xNIeLuSRDOIuplp/CJomkvzt7M18NXgG044Cx/LFKLgjKt9T2tZR6AtJayba9GTSA==
   /@octokit/rest/18.0.4:
     dependencies:
       '@octokit/core': 3.2.5
@@ -660,13 +660,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-UZ1pErDue6bZNjYOotCNveTXArOMZQFG6hKJfOnGnulVCMcVVi7YIIuuR4WfBhjo7zgpmzn/BkPDnUXtNx+PcQ==
-  /@octokit/types/6.6.0:
+  /@octokit/types/6.7.1:
     dependencies:
-      '@octokit/openapi-types': 3.3.0
+      '@octokit/openapi-types': 3.4.1
       '@types/node': 14.14.22
     dev: true
     resolution:
-      integrity: sha512-nmFoU3HCbw1AmnZU/eto2VvzV06+N7oAqXwMmAHGlNDF+KFykksh/VlAl85xc1P5T7Mw8fKYvXNaImNHCCH/rg==
+      integrity: sha512-OzRXbizUfixgzTjlSZQj+yuo0J9vAMOLtpsIm3JjQUsI3CcLXZnVaxRIWtYD+iwHznnvG9fJlPHM6SRp77fUcw==
   /@rollup/plugin-commonjs/11.1.0_rollup@2.38.1:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.38.1
@@ -1226,10 +1226,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
-  /before-after-hook/2.1.0:
+  /before-after-hook/2.1.1:
     dev: true
     resolution:
-      integrity: sha512-IWIbu7pMqyw3EAJHzzHbWa85b6oud/yfKYg5rqB5hNE8CeMi3nX+2C2sj0HswfblST86hpVEOAb9x34NZd6P7A==
+      integrity: sha512-5ekuQOvO04MDj7kYZJaMab2S8SPjGJbotVNyv7QYFCOAwrGZs/YnoDNlh1U+m5hl7H2D/+n0taaAV/tfyd3KMA==
   /binary-extensions/2.2.0:
     dev: true
     engines:
@@ -1862,14 +1862,14 @@ packages:
   /debug/3.2.6:
     dependencies:
       ms: 2.1.1
-    deprecated: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+    deprecated: 'Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)'
     dev: true
     resolution:
       integrity: sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
   /debug/4.1.1:
     dependencies:
       ms: 2.1.3
-    deprecated: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+    deprecated: 'Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)'
     dev: true
     resolution:
       integrity: sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
@@ -5477,7 +5477,7 @@ packages:
       request-promise-core: 1.1.4_request@2.88.2
       stealthy-require: 1.1.1
       tough-cookie: 2.5.0
-    deprecated: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+    deprecated: 'request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142'
     dev: true
     engines:
       node: '>=0.12.0'
@@ -5507,7 +5507,7 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
-    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
+    deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
     dev: true
     engines:
       node: '>= 6'
@@ -5552,7 +5552,7 @@ packages:
     resolution:
       integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
   /resolve-url/0.2.1:
-    deprecated: https://github.com/lydell/resolve-url#deprecated
+    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -6578,7 +6578,7 @@ packages:
     resolution:
       integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   /urix/0.1.0:
-    deprecated: Please see https://github.com/lydell/urix#deprecated
+    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -6753,7 +6753,7 @@ packages:
       integrity: sha512-5D/9vujkmVQ7pSmc0SCBmHXbkv6eaHwXEx65MywhmUMsI8sGqJ972APq1lotfcwMKPFLuCFfL8xGHLIp7jaBmA==
   /windows-release/4.0.0:
     dependencies:
-      execa: 4.0.3
+      execa: 4.1.0
     dev: true
     engines:
       node: '>=10'
