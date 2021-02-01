@@ -23,7 +23,7 @@
     }
   },
   "files": [
-    "esm",
+    "es2015",
     "system"
   ],
   "repository": {
