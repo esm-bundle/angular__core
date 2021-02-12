@@ -10,7 +10,7 @@ devDependencies:
   karma-jasmine: 4.0.1_karma@6.1.0
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
-  release-it: 14.3.0
+  release-it: 14.4.0
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
   rollup: 2.38.5
@@ -5605,7 +5605,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-OAupGLMZJBGrGRJmb8RvZ8ZQAQquKlkGGYvgRrJmkHE+jnGdf+YSvEmItBv08CwhDcwCyXdTkkN/rJ2Flt68+g==
-  /release-it/14.3.0:
+  /release-it/14.4.0:
     dependencies:
       '@iarna/toml': 2.2.5
       '@octokit/rest': 18.0.14
@@ -5640,7 +5640,7 @@ packages:
       node: '>=10'
     hasBin: true
     resolution:
-      integrity: sha512-fD0d0QG2PpJJlg51KZFdZjbRXA4jrRoJN2kkXv9m1K9jUdXhNVykexd3Eh7bLM8cNAxVUYhgSByb7mTDlAmvoA==
+      integrity: sha512-kqBz/zXOYw6+r84vdYzabiLuFIhRBiWY6I7b5NjxTO5Nhth3II3Ox5hk+bLq+Bbv208YhiZ60qyWFKX/6jii8g==
   /remove-trailing-separator/1.1.0:
     dev: true
     resolution:
@@ -7211,7 +7211,7 @@ specifiers:
   karma-jasmine: 4.0.1
   prettier: 2.2.1
   pretty-quick: 3.1.0
-  release-it: 14.3.0
+  release-it: 14.4.0
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
   rollup: 2.38.5
