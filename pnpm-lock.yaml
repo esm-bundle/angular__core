@@ -2,7 +2,7 @@ devDependencies:
   '@angular/compiler': 11.2.0
   '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
   '@angular/core': 11.2.0_rxjs@6.6.3
-  concurrently: 5.3.0
+  concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
   husky: 5.0.9
   karma: 6.1.1
@@ -1773,6 +1773,23 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-8MhqOB6PWlBfA2vJ8a0bSFKATOdWlHiQlk11IfmQBPaHVP8oP2gsh2MObE6UR3hqDHqvaIvLTyceNW6obVuFHQ==
+  /concurrently/6.0.0:
+    dependencies:
+      chalk: 4.1.0
+      date-fns: 2.16.1
+      lodash: 4.17.20
+      read-pkg: 5.2.0
+      rxjs: 6.6.3
+      spawn-command: 0.0.2-1
+      supports-color: 8.1.1
+      tree-kill: 1.2.2
+      yargs: 16.2.0
+    dev: true
+    engines:
+      node: '>=10.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-Ik9Igqnef2ONLjN2o/OVx1Ow5tymVvvEwQeYCQdD/oV+CN9oWhxLk7ibcBdOtv0UzBqHCEKRwbKceYoTK8t3fQ==
   /configstore/5.0.1:
     dependencies:
       dot-prop: 5.3.0
@@ -6552,6 +6569,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
+  /supports-color/8.1.1:
+    dependencies:
+      has-flag: 4.0.0
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
   /supports-hyperlinks/2.1.0:
     dependencies:
       has-flag: 4.0.0
@@ -7304,7 +7329,7 @@ specifiers:
   '@angular/compiler': 11.2.0
   '@angular/compiler-cli': 11.2.0
   '@angular/core': 11.2.0
-  concurrently: 5.3.0
+  concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
   husky: 5.0.9
   karma: 6.1.1
