@@ -11,8 +11,6 @@ jobs:
     env:
       MOZ_HEADLESS: 1
     steps:
-      - run: |
-          [[ ! -z "$NPM_TOKEN" ]] && echo "Hi" || echo "Not hi"
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
@@ -24,9 +22,12 @@ jobs:
       - run: pnpm test
   publish:
     runs-on: ubuntu-latest
+    env: NPM_TOKEN ${{ secrets.NPM_TOKEN }}
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
+      - run: |
+          [[ ! -z "$NPM_TOKEN" ]] && echo "Token defined" || echo "No token"
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
