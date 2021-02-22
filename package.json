@@ -14,7 +14,7 @@
     "build": "rimraf system es2015 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
-    "postinstall": "ngcc --no-tsconfig --target @angular/core --properties es2015 --first-only",
+    "postinstall": "husky install",
     "prepublishOnly": "yarn build"
   },
   "husky": {
