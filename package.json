@@ -14,13 +14,9 @@
     "build": "rimraf system es2015 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
-    "postinstall": "ngcc --no-tsconfig --target @angular/core --properties es2015 --first-only",
-    "prepublishOnly": "yarn build"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn test"
-    }
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable && pnpm run build",
+    "postpublish": "pinst --enable"
   },
   "files": [
     "es2015",
@@ -42,10 +38,11 @@
     "@angular/core": "11.2.0",
     "concurrently": "6.0.0",
     "esm-bundle-scripts": "1.2.0",
-    "husky": "5.0.9",
+    "husky": "5.1.1",
     "karma": "6.1.1",
     "karma-firefox-launcher": "2.1.0",
     "karma-jasmine": "4.0.1",
+    "pinst": "^2.1.4",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
     "release-it": "14.4.1",
