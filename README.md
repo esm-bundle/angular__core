@@ -1,6 +1,6 @@
 # angular-core
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__core.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__core) [![build status](https://travis-ci.com/esm-bundle/angular__core.svg?branch=master)](https://travis-ci.com/esm-bundle/angular__core) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__core/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__core)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular__core.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular__core) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular__core/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular__core)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
