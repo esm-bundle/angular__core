@@ -20,3 +20,10 @@ jobs:
           version: 5.17.3
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: "Publish to npm"
+        run: pnpm run release
