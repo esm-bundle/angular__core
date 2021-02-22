@@ -26,6 +26,7 @@ jobs:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_USER: ${{ secrets.GITHUB_ACTOR }}
+      MOZ_HEADLESS: 1
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
