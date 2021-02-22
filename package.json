@@ -7,7 +7,7 @@
     ".": "./es2015/ivy/angular-core.js"
   },
   "scripts": {
-    "test": "yarn build && concurrently -n w: 'yarn:test:*'",
+    "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:formatting": "prettier --check .",
