@@ -39,7 +39,7 @@ jobs:
         with:
           version: 5.17.3
       - run: pnpm install --frozen-lockfile
-      - name: Setup npm auth
-        run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+      - name: Setup auth
+        run: git config --global user.email fake@fake.com && git config --global user.name $GITHUB_USER && echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: "Publish to npm"
         run: pnpm run release
