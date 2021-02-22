@@ -15,12 +15,8 @@
     "format": "prettier --write .",
     "release": "release-it",
     "postinstall": "husky install",
-    "prepublishOnly": "yarn build"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn test"
-    }
+    "prepublishOnly": "pinst --disable && pnpm run build",
+    "postpublish": "pinst --enable"
   },
   "files": [
     "es2015",
@@ -46,6 +42,7 @@
     "karma": "6.1.1",
     "karma-firefox-launcher": "2.1.0",
     "karma-jasmine": "4.0.1",
+    "pinst": "^2.1.4",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
     "release-it": "14.4.0",
