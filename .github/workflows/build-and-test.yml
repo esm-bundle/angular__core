@@ -29,8 +29,6 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
-      - run: |
-          [[ ! -z "$NPM_TOKEN" ]] && echo "Token defined" || echo "No token"
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
@@ -40,6 +38,9 @@ jobs:
           version: 5.17.3
       - run: pnpm install --frozen-lockfile
       - name: Setup auth
-        run: git config --global user.email fake@fake.com && git config --global user.name $GITHUB_USER && echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+        run: |
+          git config --global user.email github-bot@github.com
+          git config --global user.name $GITHUB_USER
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: "Publish to npm"
         run: pnpm run release
