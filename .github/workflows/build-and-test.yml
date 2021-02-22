@@ -22,7 +22,8 @@ jobs:
       - run: pnpm test
   publish:
     runs-on: ubuntu-latest
-    env: NPM_TOKEN ${{ secrets.NPM_TOKEN }}
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
