@@ -1,7 +1,7 @@
 devDependencies:
-  '@angular/compiler': 11.2.2
-  '@angular/compiler-cli': 11.2.2_e546853f254b9c9913315db61ac20413
-  '@angular/core': 11.2.2_rxjs@6.6.3
+  '@angular/compiler': 11.2.3
+  '@angular/compiler-cli': 11.2.3_3f291c437997a83bf68e7c1bae7f26e3
+  '@angular/core': 11.2.3_rxjs@6.6.3
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
   husky: 5.1.1
@@ -20,9 +20,9 @@ devDependencies:
   typescript: 4.2.2
 lockfileVersion: 5.2
 packages:
-  /@angular/compiler-cli/11.2.2_e546853f254b9c9913315db61ac20413:
+  /@angular/compiler-cli/11.2.3_3f291c437997a83bf68e7c1bae7f26e3:
     dependencies:
-      '@angular/compiler': 11.2.2
+      '@angular/compiler': 11.2.3
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -44,17 +44,17 @@ packages:
       node: '>=10.0'
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.2.2
+      '@angular/compiler': 11.2.3
       typescript: '>=4.0 <4.2'
     resolution:
-      integrity: sha512-Ilzqs6OR/z1V6GcqeSwAHS9km2hCNvNlY5dFYnvCzPRLzVkrUyf92YB2fJsBM8KR9/rVq/RGmfRkTsWG+n04Rg==
-  /@angular/compiler/11.2.2:
+      integrity: sha512-ObQVI6q2c0VTWbsDnWJDdUZv2Jz/u1jiQNcrdtu/rjtJARaldEno9dMakN838Q6Nw4FzKUO6uYZXmnvKCUjfxQ==
+  /@angular/compiler/11.2.3:
     dependencies:
       tslib: 2.1.0
     dev: true
     resolution:
-      integrity: sha512-K4EKBADyl8GMRUXV/t/C2EilTy0shFpdFFpvRxAuACS5ZVVwaeLPsmBERh/w5kplwgVB+qyn2MoIDjDeDTZGFg==
-  /@angular/core/11.2.2_rxjs@6.6.3:
+      integrity: sha512-De8BwtSwPVYGdvQa6CDq2C1SLmB78YjS0t/KNlvfp85cl4Gb3BdjTDsKMkJXkm/3ubnIXi1BaRIsFNVTCCF70Q==
+  /@angular/core/11.2.3_rxjs@6.6.3:
     dependencies:
       rxjs: 6.6.3
       tslib: 2.1.0
@@ -63,7 +63,7 @@ packages:
       rxjs: ^6.5.3
       zone.js: ^0.10.2 || ^0.11.3
     resolution:
-      integrity: sha512-NjjvjMCRJpqQ6FMI/ECAOJrrpJIwNqZGORqJDHBNUqytwlmDXkq25UaiXHrpEqC7M2G+J8REhnoUGnMYqK7x+A==
+      integrity: sha512-+G7rZj21Mcmf6nWjQ79EwomwEOVQ1WLqw6YvCXWzgJ9ZlVjLi/Sti0/jIzUpgK0E0Fn86yuXw/vgYq5kjGeOcQ==
   /@babel/code-frame/7.12.11:
     dependencies:
       '@babel/highlight': 7.10.4
@@ -7340,9 +7340,9 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
-  '@angular/compiler': 11.2.2
-  '@angular/compiler-cli': 11.2.2
-  '@angular/core': 11.2.2
+  '@angular/compiler': 11.2.3
+  '@angular/compiler-cli': 11.2.3
+  '@angular/core': 11.2.3
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
   husky: 5.1.1
