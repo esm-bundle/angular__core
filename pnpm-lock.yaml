@@ -4,7 +4,7 @@ devDependencies:
   '@angular/core': 11.2.3_rxjs@6.6.6
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
-  husky: 5.1.1
+  husky: 5.1.2
   karma: 6.1.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1_karma@6.1.1
@@ -3252,13 +3252,13 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-LCqqsB0PzJQ/AlCgfrfzRe3e3+NvmefAdKQhRYpxS4u6clblBoDdzzvHi8fmxKRzvMxPY/1WZWzomPZww0Anow==
-  /husky/5.1.1:
+  /husky/5.1.2:
     dev: true
     engines:
       node: '>= 10'
     hasBin: true
     resolution:
-      integrity: sha512-80LZ736V0Nr4/st0c2COYaMbEQhHNmAbLMN8J/kLk7/mo0QdUkUGNDjv/7jVkhug377Wh8wfbWyaVXEJ/h2B/Q==
+      integrity: sha512-lilaRYeDXcAOj8DuRnN9IxUyEMVbYg9rK7yVNkPB5V4hCvxIUxpMeiv9K2h77CE0HzjCnk1Br0oWe1IghXngDQ==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -7353,7 +7353,7 @@ specifiers:
   '@angular/core': 11.2.3
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
-  husky: 5.1.1
+  husky: 5.1.2
   karma: 6.1.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
