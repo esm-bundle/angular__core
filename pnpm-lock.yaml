@@ -1,7 +1,7 @@
 devDependencies:
   '@angular/compiler': 11.2.7
   '@angular/compiler-cli': 11.2.7_de4528eac47c78da2656322907dbb516
-  '@angular/core': 11.2.7_rxjs@6.6.6
+  '@angular/core': 11.2.7_rxjs@6.6.7
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
   husky: 5.2.0
@@ -16,7 +16,7 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.43.1
   rollup-plugin-terser: 7.0.2_rollup@2.43.1
-  rxjs: 6.6.6
+  rxjs: 6.6.7
   typescript: 4.2.3
 lockfileVersion: 5.2
 packages:
@@ -54,9 +54,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-VikD6d33TjBYqLfECzVSbD/T7DFmNRx9rA4b2R2RNrQ3efW7zUJjJMsYwuQEWhYe0dFsBfMKCb/+yCjH9DYTFg==
-  /@angular/core/11.2.7_rxjs@6.6.6:
+  /@angular/core/11.2.7_rxjs@6.6.7:
     dependencies:
-      rxjs: 6.6.6
+      rxjs: 6.6.7
       tslib: 2.1.0
     dev: true
     peerDependencies:
@@ -6063,6 +6063,14 @@ packages:
       npm: '>=2.0.0'
     resolution:
       integrity: sha512-/oTwee4N4iWzAMAL9xdGKjkEHmIwupR3oXbQjCKywF1BeFohswF3vZdogbmEF6pZkOsXTzWkrZszrWpQTByYVg==
+  /rxjs/6.6.7:
+    dependencies:
+      tslib: 1.14.1
+    dev: true
+    engines:
+      npm: '>=2.0.0'
+    resolution:
+      integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==
   /safe-buffer/5.1.2:
     dev: true
     resolution:
@@ -7410,5 +7418,5 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.43.1
   rollup-plugin-terser: 7.0.2
-  rxjs: 6.6.6
+  rxjs: 6.6.7
   typescript: 4.2.3
