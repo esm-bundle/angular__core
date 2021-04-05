@@ -36,7 +36,7 @@
     "@angular/compiler": "11.2.8",
     "@angular/compiler-cli": "11.2.8",
     "@angular/core": "11.2.8",
-    "concurrently": "6.0.0",
+    "concurrently": "6.0.1",
     "esm-bundle-scripts": "1.2.0",
     "husky": "6.0.0",
     "karma": "6.3.2",
