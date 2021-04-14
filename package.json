@@ -35,7 +35,7 @@
   "devDependencies": {
     "@angular/compiler": "11.2.9",
     "@angular/compiler-cli": "11.2.9",
-    "@angular/core": "11.2.9",
+    "@angular/core": "11.2.10",
     "concurrently": "6.0.2",
     "esm-bundle-scripts": "1.2.0",
     "husky": "6.0.0",

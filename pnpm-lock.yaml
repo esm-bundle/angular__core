@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@angular/compiler': 11.2.9
   '@angular/compiler-cli': 11.2.9
-  '@angular/core': 11.2.9
+  '@angular/core': 11.2.10
   concurrently: 6.0.2
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
@@ -24,7 +24,7 @@ specifiers:
 devDependencies:
   '@angular/compiler': 11.2.9
   '@angular/compiler-cli': 11.2.9_10bbfd40a4988655be952b9737ad00dc
-  '@angular/core': 11.2.9_rxjs@6.6.7
+  '@angular/core': 11.2.10_rxjs@6.6.7
   concurrently: 6.0.2
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
@@ -79,8 +79,8 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/core/11.2.9_rxjs@6.6.7:
-    resolution: {integrity: sha512-OLW8ThHdG5XjE9PMdBWyAm19wXEjuhWAB19qCqNerKkk1RGEOn+ISUR5Rpg5Fh3rlI4nFOm+WeOUIaq9uxF53A==}
+  /@angular/core/11.2.10_rxjs@6.6.7:
+    resolution: {integrity: sha512-1nZGSVZPvTA6rFJhoivcUKm2YBx9A+569cV1UTPlXjcpO+wNcrrXG+6yjxS2wAffTWEQ7xA0ajyo8mZrpqqw9Q==}
     peerDependencies:
       rxjs: ^6.5.3
       zone.js: ^0.10.2 || ^0.11.3
