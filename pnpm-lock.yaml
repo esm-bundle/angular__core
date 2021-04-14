@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 11.2.9
-  '@angular/compiler-cli': 11.2.9
+  '@angular/compiler': 11.2.10
+  '@angular/compiler-cli': 11.2.10
   '@angular/core': 11.2.10
   concurrently: 6.0.2
   esm-bundle-scripts: 1.2.0
@@ -22,8 +22,8 @@ specifiers:
   typescript: 4.2.4
 
 devDependencies:
-  '@angular/compiler': 11.2.9
-  '@angular/compiler-cli': 11.2.9_10bbfd40a4988655be952b9737ad00dc
+  '@angular/compiler': 11.2.10
+  '@angular/compiler-cli': 11.2.10_6d8b6d775c6e80e5aed2af8b37339c9a
   '@angular/core': 11.2.10_rxjs@6.6.7
   concurrently: 6.0.2
   esm-bundle-scripts: 1.2.0
@@ -44,15 +44,15 @@ devDependencies:
 
 packages:
 
-  /@angular/compiler-cli/11.2.9_10bbfd40a4988655be952b9737ad00dc:
-    resolution: {integrity: sha512-Gmd0pn1DCGfjQW2IWn4UbL7A/DtFEHBPGsP/3Mb7OfERs60NOra/HWAPDVfzcrnZqNRJBafrBvnNA8+1Ci5kNA==}
+  /@angular/compiler-cli/11.2.10_6d8b6d775c6e80e5aed2af8b37339c9a:
+    resolution: {integrity: sha512-IrCH/5VxFVCwklQQU+bhAQUuwr5nc0Ts7eId5CUyBh3edCdP6vnQaDi7yiJ3yxIo/DAwS68Yel2T1/2KAxp5gg==}
     engines: {node: '>=10.0'}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.2.9
+      '@angular/compiler': 11.2.10
       typescript: '>=4.0 <4.2'
     dependencies:
-      '@angular/compiler': 11.2.9
+      '@angular/compiler': 11.2.10
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -73,8 +73,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/11.2.9:
-    resolution: {integrity: sha512-EelccCc6Xgrz6UzoJU5EqrRc0CGDHS82cheiBP3lSDfjG6borD9al4DN5lfphp+FCmTpLY33wQ3jqhPwC02FMQ==}
+  /@angular/compiler/11.2.10:
+    resolution: {integrity: sha512-+Ba/y0v5eIu1fEJthIpFK+DiIT/YTYSL7Jy1hhZrGLHDiAUxSnzF5/lgrnLAPuZWt/5w44+WPXx3d1xqvNWWNw==}
     dependencies:
       tslib: 2.1.0
     dev: true
