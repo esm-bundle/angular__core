@@ -7,7 +7,7 @@ specifiers:
   concurrently: 6.2.0
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
-  karma: 6.3.3
+  karma: 6.3.4
   karma-firefox-launcher: 2.1.1
   karma-jasmine: 4.0.1
   pinst: 2.1.6
@@ -28,9 +28,9 @@ devDependencies:
   concurrently: 6.2.0
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
-  karma: 6.3.3
+  karma: 6.3.4
   karma-firefox-launcher: 2.1.1
-  karma-jasmine: 4.0.1_karma@6.3.3
+  karma-jasmine: 4.0.1_karma@6.3.4
   pinst: 2.1.6
   prettier: 2.3.1
   pretty-quick: 3.1.0_prettier@2.3.1
@@ -2685,7 +2685,7 @@ packages:
     resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==}
     engines: {node: '>=6 <7 || >=8'}
     dependencies:
-      graceful-fs: 4.2.4
+      graceful-fs: 4.2.6
       jsonfile: 4.0.0
       universalify: 0.1.2
     dev: true
@@ -2818,6 +2818,17 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
+  /glob/7.1.7:
+    resolution: {integrity: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==}
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.0.4
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    dev: true
+
   /global-dirs/2.1.0:
     resolution: {integrity: sha512-MG6kdOUh/xBnyo9cJFeIKkLEc1AyFq42QTU4XiX51i2NEdxLxLWXIjEjmqKeSuKR7pAZjTqUVoT2b2huxVLgYQ==}
     engines: {node: '>=8'}
@@ -2914,6 +2925,10 @@ packages:
 
   /graceful-fs/4.2.4:
     resolution: {integrity: sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==}
+    dev: true
+
+  /graceful-fs/4.2.6:
+    resolution: {integrity: sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==}
     dev: true
 
   /growl/1.10.5:
@@ -3534,6 +3549,11 @@ packages:
     engines: {node: '>= 8.0.0'}
     dev: true
 
+  /isbinaryfile/4.0.8:
+    resolution: {integrity: sha512-53h6XFniq77YdW+spoRrebh0mnmTxRPTlcuIArO57lmMdq4uBKFKaeTjnb92oYWrSn/LVL+LT+Hap2tFQj8V+w==}
+    engines: {node: '>= 8.0.0'}
+    dev: true
+
   /isexe/2.0.0:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
     dev: true
@@ -4122,7 +4142,7 @@ packages:
   /jsonfile/4.0.0:
     resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
     optionalDependencies:
-      graceful-fs: 4.2.4
+      graceful-fs: 4.2.6
     dev: true
 
   /jsprim/1.4.1:
@@ -4158,14 +4178,14 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.3:
+  /karma-jasmine/4.0.1_karma@6.3.4:
     resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
     dependencies:
       jasmine-core: 3.6.0
-      karma: 6.3.3
+      karma: 6.3.4
     dev: true
 
   /karma/5.2.3:
@@ -4203,8 +4223,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /karma/6.3.3:
-    resolution: {integrity: sha512-JRAujkKWaOtO2LmyPH7K2XXRhrxuFAn9loIL9+iiah6vjz+ZLkqdKsySV9clRITGhj10t9baIfbCl6CJ5hu9gQ==}
+  /karma/6.3.4:
+    resolution: {integrity: sha512-hbhRogUYIulfkBTZT7xoPrCYhRBnBoqbbL4fszWD0ReFGUxU+LYBr3dwKdAluaDQ/ynT9/7C+Lf7pPNW4gSx4Q==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -4215,13 +4235,13 @@ packages:
       connect: 3.7.0
       di: 0.0.1
       dom-serialize: 2.2.1
-      glob: 7.1.6
-      graceful-fs: 4.2.4
+      glob: 7.1.7
+      graceful-fs: 4.2.6
       http-proxy: 1.18.1
-      isbinaryfile: 4.0.6
+      isbinaryfile: 4.0.8
       lodash: 4.17.21
       log4js: 6.3.0
-      mime: 2.5.0
+      mime: 2.5.2
       minimatch: 3.0.4
       qjobs: 1.2.0
       range-parser: 1.2.1
@@ -4229,7 +4249,7 @@ packages:
       socket.io: 3.1.0
       source-map: 0.6.1
       tmp: 0.2.1
-      ua-parser-js: 0.7.23
+      ua-parser-js: 0.7.28
       yargs: 16.2.0
     transitivePeerDependencies:
       - bufferutil
@@ -4514,6 +4534,12 @@ packages:
 
   /mime/2.5.0:
     resolution: {integrity: sha512-ft3WayFSFUVBuJj7BMLKAQcSlItKtfjsKDDsii3rqFDAZ7t11zRe8ASw/GlmivGwVUYtwkQrxiGGpL6gFvB0ag==}
+    engines: {node: '>=4.0.0'}
+    hasBin: true
+    dev: true
+
+  /mime/2.5.2:
+    resolution: {integrity: sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==}
     engines: {node: '>=4.0.0'}
     hasBin: true
     dev: true
@@ -6503,8 +6529,8 @@ packages:
     resolution: {integrity: sha512-YUxzMjJ5T71w6a8WWVcMGM6YWOTX27rCoIQgLXiWaxqXSx9D7DNjiGWn1aJIRSQ5qr0xuhra77bSIh6voR/46Q==}
     dev: true
 
-  /ua-parser-js/0.7.23:
-    resolution: {integrity: sha512-m4hvMLxgGHXG3O3fQVAyyAQpZzDOvwnhOTjYz5Xmr7r/+LpkNy3vJXdVRWgd1TkAb7NGROZuSy96CrlNVjA7KA==}
+  /ua-parser-js/0.7.28:
+    resolution: {integrity: sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==}
     dev: true
 
   /union-value/1.0.1:
