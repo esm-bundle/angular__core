@@ -16,7 +16,7 @@ specifiers:
   release-it: 14.9.0
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
-  rollup: 2.51.2
+  rollup: 2.52.0
   rollup-plugin-terser: 7.0.2
   rxjs: 7.1.0
   typescript: 4.3.2
@@ -37,8 +37,8 @@ devDependencies:
   release-it: 14.9.0
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
-  rollup: 2.51.2
-  rollup-plugin-terser: 7.0.2_rollup@2.51.2
+  rollup: 2.52.0
+  rollup-plugin-terser: 7.0.2_rollup@2.52.0
   rxjs: 7.1.0
   typescript: 4.3.2
 
@@ -2704,6 +2704,13 @@ packages:
 
   /fsevents/2.3.1:
     resolution: {integrity: sha512-YR47Eg4hChJGAB1O3yEAOkGO+rlzutoICGqGo9EZ4lKWokzZRSyIW1QmTzqjtw8MJdj9srP869CuWw/hyzSiBw==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    dev: true
+    optional: true
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     dev: true
@@ -5685,14 +5692,14 @@ packages:
       terser: 4.8.0
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.51.2:
+  /rollup-plugin-terser/7.0.2_rollup@2.52.0:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.12.11
       jest-worker: 26.6.2
-      rollup: 2.51.2
+      rollup: 2.52.0
       serialize-javascript: 4.0.0
       terser: 5.5.1
     dev: true
@@ -5711,12 +5718,12 @@ packages:
       fsevents: 2.1.3
     dev: true
 
-  /rollup/2.51.2:
-    resolution: {integrity: sha512-ReV2eGEadA7hmXSzjxdDKs10neqH2QURf2RxJ6ayAlq93ugy6qIvXMmbc5cWMGCDh1h5T4thuWO1e2VNbMq8FA==}
+  /rollup/2.52.0:
+    resolution: {integrity: sha512-lSkBDGsVoXjqaBf7dsHwxBJz+p+hJEP72P+LOitA0yVs+Nzxj76FidkZE2thrmhjwGqLYiJo39opi7mAfaQ/Vg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.1
+      fsevents: 2.3.2
     dev: true
 
   /rsvp/4.8.5:
