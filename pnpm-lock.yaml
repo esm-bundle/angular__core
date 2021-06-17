@@ -12,7 +12,7 @@ specifiers:
   karma-jasmine: 4.0.1
   pinst: 2.1.6
   prettier: 2.3.1
-  pretty-quick: 3.1.0
+  pretty-quick: 3.1.1
   release-it: 14.9.0
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
@@ -33,7 +33,7 @@ devDependencies:
   karma-jasmine: 4.0.1_karma@6.3.4
   pinst: 2.1.6
   prettier: 2.3.1
-  pretty-quick: 3.1.0_prettier@2.3.1
+  pretty-quick: 3.1.1_prettier@2.3.1
   release-it: 14.9.0
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
@@ -5224,8 +5224,8 @@ packages:
       prettier: 2.2.1
     dev: true
 
-  /pretty-quick/3.1.0_prettier@2.3.1:
-    resolution: {integrity: sha512-DtxIxksaUWCgPFN7E1ZZk4+Aav3CCuRdhrDSFZENb404sYMtuo9Zka823F+Mgeyt8Zt3bUiCjFzzWYE9LYqkmQ==}
+  /pretty-quick/3.1.1_prettier@2.3.1:
+    resolution: {integrity: sha512-ZYLGiMoV2jcaas3vTJrLvKAYsxDoXQBUn8OSTxkl67Fyov9lyXivJTl0+2WVh+y6EovGcw7Lm5ThYpH+Sh3XxQ==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
