@@ -16,7 +16,7 @@ specifiers:
   release-it: 14.11.3
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
-  rollup: 2.56.1
+  rollup: 2.56.2
   rollup-plugin-terser: 7.0.2
   rxjs: 7.3.0
   typescript: 4.3.5
@@ -37,8 +37,8 @@ devDependencies:
   release-it: 14.11.3
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
-  rollup: 2.56.1
-  rollup-plugin-terser: 7.0.2_rollup@2.56.1
+  rollup: 2.56.2
+  rollup-plugin-terser: 7.0.2_rollup@2.56.2
   rxjs: 7.3.0
   typescript: 4.3.5
 
@@ -5837,14 +5837,14 @@ packages:
       terser: 4.8.0
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.56.1:
+  /rollup-plugin-terser/7.0.2_rollup@2.56.2:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.12.11
       jest-worker: 26.6.2
-      rollup: 2.56.1
+      rollup: 2.56.2
       serialize-javascript: 4.0.0
       terser: 5.5.1
     dev: true
@@ -5863,8 +5863,8 @@ packages:
       fsevents: 2.1.3
     dev: true
 
-  /rollup/2.56.1:
-    resolution: {integrity: sha512-KkrsNjeiTfGJMUFBi/PNfj3fnt70akqdoNXOjlzwo98uA1qrlkmgt6SGaK5OwhyDYCVnJb6jb2Xa2wbI47P4Nw==}
+  /rollup/2.56.2:
+    resolution: {integrity: sha512-s8H00ZsRi29M2/lGdm1u8DJpJ9ML8SUOpVVBd33XNeEeL3NVaTiUcSBHzBdF3eAyR0l7VSpsuoVUGrRHq7aPwQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
