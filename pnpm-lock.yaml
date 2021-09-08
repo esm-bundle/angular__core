@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 12.2.4
-  '@angular/compiler-cli': 12.2.4
-  '@angular/core': 12.2.4
+  '@angular/compiler': 12.2.5
+  '@angular/compiler-cli': 12.2.5
+  '@angular/core': 12.2.5
   concurrently: 6.2.1
   esm-bundle-scripts: 1.2.0
   husky: 7.0.2
@@ -22,9 +22,9 @@ specifiers:
   typescript: 4.4.2
 
 devDependencies:
-  '@angular/compiler': 12.2.4
-  '@angular/compiler-cli': 12.2.4_b77e931fa96dc7a57147c3799d65ed26
-  '@angular/core': 12.2.4_rxjs@7.3.0
+  '@angular/compiler': 12.2.5
+  '@angular/compiler-cli': 12.2.5_737786d758bfc6c1291aa5f568082f88
+  '@angular/core': 12.2.5_rxjs@7.3.0
   concurrently: 6.2.1
   esm-bundle-scripts: 1.2.0
   husky: 7.0.2
@@ -44,15 +44,15 @@ devDependencies:
 
 packages:
 
-  /@angular/compiler-cli/12.2.4_b77e931fa96dc7a57147c3799d65ed26:
-    resolution: {integrity: sha512-g7sCBdk58yqD9H4k2JQ1NRBgC7SyDjiTbM9ETe/CZ0mzQlbplmgUlPGiSRy4qTTrmjiJlK2AEfzd0s/ahkIsPQ==}
+  /@angular/compiler-cli/12.2.5_737786d758bfc6c1291aa5f568082f88:
+    resolution: {integrity: sha512-KVpgkWUGZYRPvmJOqY1CZwjvc7VE0DYDPxmvXH/S1C6rzpl/UOTxYtDynxiNzuvLeV0oOnlcOGd4/BmMZJPh/A==}
     engines: {node: ^12.14.1 || >=14.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 12.2.4
+      '@angular/compiler': 12.2.5
       typescript: '>=4.2.3 <4.4'
     dependencies:
-      '@angular/compiler': 12.2.4
+      '@angular/compiler': 12.2.5
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -72,15 +72,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/12.2.4:
-    resolution: {integrity: sha512-aqX9SgUIOYwWeD9xGlyGgFRmgvebw9EE8U5Y3Dcrhui1XvxWKnmuozs3w5JVhmEn5f42XDdOas5gkI/E7+hasA==}
+  /@angular/compiler/12.2.5:
+    resolution: {integrity: sha512-J73E3hao95T8+/+hWuCqGyXs9QCPoSsCTXmSPayFlYJW3QF5SG2vhjnf4SAgtNbUBHQWAIwGKxQTqD3VbtvP1A==}
     engines: {node: ^12.14.1 || >=14.0.0}
     dependencies:
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/12.2.4_rxjs@7.3.0:
-    resolution: {integrity: sha512-+TlS6vI56YkvUoQI/Er7kXzi5sjd/oayb8+iTnecX1u0UOpBYzcE8NLeHqSS9qPUjWSiw0JjgW07gdzxlye3aQ==}
+  /@angular/core/12.2.5_rxjs@7.3.0:
+    resolution: {integrity: sha512-bwxxEy1UrV+hWzjT6ow/Ge8upebglJwlWuKadPdd3ZVrWKPI0saoUUBv4S8EGiIxyW821GfEbzWzmBYUSUCiGQ==}
     engines: {node: ^12.14.1 || >=14.0.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.0.0
