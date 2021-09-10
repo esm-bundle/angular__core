@@ -19,11 +19,11 @@ specifiers:
   rollup: 2.56.3
   rollup-plugin-terser: 7.0.2
   rxjs: 7.3.0
-  typescript: 4.4.2
+  typescript: 4.4.3
 
 devDependencies:
   '@angular/compiler': 12.2.5
-  '@angular/compiler-cli': 12.2.5_737786d758bfc6c1291aa5f568082f88
+  '@angular/compiler-cli': 12.2.5_08bd13b6d77722ec2eb114395719e63a
   '@angular/core': 12.2.5_rxjs@7.3.0
   concurrently: 6.2.1
   esm-bundle-scripts: 1.2.0
@@ -40,11 +40,11 @@ devDependencies:
   rollup: 2.56.3
   rollup-plugin-terser: 7.0.2_rollup@2.56.3
   rxjs: 7.3.0
-  typescript: 4.4.2
+  typescript: 4.4.3
 
 packages:
 
-  /@angular/compiler-cli/12.2.5_737786d758bfc6c1291aa5f568082f88:
+  /@angular/compiler-cli/12.2.5_08bd13b6d77722ec2eb114395719e63a:
     resolution: {integrity: sha512-KVpgkWUGZYRPvmJOqY1CZwjvc7VE0DYDPxmvXH/S1C6rzpl/UOTxYtDynxiNzuvLeV0oOnlcOGd4/BmMZJPh/A==}
     engines: {node: ^12.14.1 || >=14.0.0}
     hasBin: true
@@ -66,7 +66,7 @@ packages:
       source-map: 0.6.1
       sourcemap-codec: 1.4.8
       tslib: 2.3.0
-      typescript: 4.4.2
+      typescript: 4.4.3
       yargs: 17.0.1
     transitivePeerDependencies:
       - supports-color
@@ -6662,8 +6662,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.4.2:
-    resolution: {integrity: sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==}
+  /typescript/4.4.3:
+    resolution: {integrity: sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
