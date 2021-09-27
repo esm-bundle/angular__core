@@ -4,7 +4,7 @@ specifiers:
   '@angular/compiler': 12.2.7
   '@angular/compiler-cli': 12.2.7
   '@angular/core': 12.2.7
-  concurrently: 6.2.1
+  concurrently: 6.2.2
   esm-bundle-scripts: 1.2.0
   husky: 7.0.2
   karma: 6.3.4
@@ -25,7 +25,7 @@ devDependencies:
   '@angular/compiler': 12.2.7
   '@angular/compiler-cli': 12.2.7_7680898ee5b65a591c6027294020ae1f
   '@angular/core': 12.2.7_rxjs@7.3.0
-  concurrently: 6.2.1
+  concurrently: 6.2.2
   esm-bundle-scripts: 1.2.0
   husky: 7.0.2
   karma: 6.3.4
@@ -1598,14 +1598,6 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /chalk/4.1.1:
-    resolution: {integrity: sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==}
-    engines: {node: '>=10'}
-    dependencies:
-      ansi-styles: 4.3.0
-      supports-color: 7.2.0
-    dev: true
-
   /chalk/4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
@@ -1829,15 +1821,14 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/6.2.1:
-    resolution: {integrity: sha512-emgwhH+ezkuYKSHZQ+AkgEpoUZZlbpPVYCVv7YZx0r+T7fny1H03r2nYRebpi2DudHR4n1Rgbo2YTxKOxVJ4+g==}
+  /concurrently/6.2.2:
+    resolution: {integrity: sha512-7a45BjVakAl3pprLOeqaOoZfIWZRmdC68NkjyzPbKu0/pE6CRmqS3l8RG7Q2cX9LnRHkB0oPM6af8PS7NEQvYQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
-      chalk: 4.1.1
+      chalk: 4.1.2
       date-fns: 2.16.1
       lodash: 4.17.21
-      read-pkg: 5.2.0
       rxjs: 6.6.7
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
