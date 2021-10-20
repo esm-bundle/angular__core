@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 12.2.10
-  '@angular/compiler-cli': 12.2.10
-  '@angular/core': 12.2.10
+  '@angular/compiler': 12.2.11
+  '@angular/compiler-cli': 12.2.11
+  '@angular/core': 12.2.11
   concurrently: 6.3.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.2
@@ -22,9 +22,9 @@ specifiers:
   typescript: 4.4.4
 
 devDependencies:
-  '@angular/compiler': 12.2.10
-  '@angular/compiler-cli': 12.2.10_1defc5dc47b38e6615a3fbd64f8080de
-  '@angular/core': 12.2.10_rxjs@7.4.0
+  '@angular/compiler': 12.2.11
+  '@angular/compiler-cli': 12.2.11_5bcc2fce18b662f73577c0734ae18e33
+  '@angular/core': 12.2.11_rxjs@7.4.0
   concurrently: 6.3.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.2
@@ -44,15 +44,15 @@ devDependencies:
 
 packages:
 
-  /@angular/compiler-cli/12.2.10_1defc5dc47b38e6615a3fbd64f8080de:
-    resolution: {integrity: sha512-cPWxNMwPTM7IsEBxMrh4yY9XZi4gZRv7EmKWOfBw6hiW0SEmthIQWOvCaoL5CPsdUhInNxXWvwAoFggk/tfJ5g==}
+  /@angular/compiler-cli/12.2.11_5bcc2fce18b662f73577c0734ae18e33:
+    resolution: {integrity: sha512-mOEyAQQS28omIGOw71jXnAI+GLxLVHhsa5vcS9Cy+HLfgJzysTngwdKNO7iJvalsyAsb9EjJ3R82XRKKJspV0g==}
     engines: {node: ^12.14.1 || >=14.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 12.2.10
+      '@angular/compiler': 12.2.11
       typescript: '>=4.2.3 <4.4'
     dependencies:
-      '@angular/compiler': 12.2.10
+      '@angular/compiler': 12.2.11
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -72,15 +72,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/12.2.10:
-    resolution: {integrity: sha512-5fuzX8P74z28CRYTamsZgsdUyh0c53shytZYfa0cGFXyV8VD/r8AMIyQ4y7Y5Fmt4Nr+65EVeYb3sI7IzYiueg==}
+  /@angular/compiler/12.2.11:
+    resolution: {integrity: sha512-78b5Uf+79gOKEyF/ixFAGJANNHnhueofSxgToBmJkTTpqTX6Xzdfzw8W+ehpJADp52eBjmZ+rv7b9sgBsiJ1tg==}
     engines: {node: ^12.14.1 || >=14.0.0}
     dependencies:
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/12.2.10_rxjs@7.4.0:
-    resolution: {integrity: sha512-xG1IbmEAV7gWpiY2MSFc87MlmB3yff8/TAlSE8Tj2ZFzb1lFjeFnrZ1y50Hi2AcVyX/KA1mx/RyJ0M7fmQ1ayw==}
+  /@angular/core/12.2.11_rxjs@7.4.0:
+    resolution: {integrity: sha512-wzCFtVFdQlXJlzWpWNz3w8cDzhYzuO1qDqey15Wd4zPR8c8pDx3/XCZXSziskaUzA+fVzgHHSwQnOi9XSFFjzA==}
     engines: {node: ^12.14.1 || >=14.0.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.0.0
@@ -1812,7 +1812,7 @@ packages:
     dependencies:
       chalk: 2.4.2
       date-fns: 2.16.1
-      lodash: 4.17.20
+      lodash: 4.17.21
       read-pkg: 4.0.1
       rxjs: 6.6.3
       spawn-command: 0.0.2-1
@@ -2011,18 +2011,6 @@ packages:
     deprecated: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
     dependencies:
       ms: 2.1.3
-    dev: true
-
-  /debug/4.3.1:
-    resolution: {integrity: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
     dev: true
 
   /debug/4.3.2:
@@ -2304,7 +2292,7 @@ packages:
       base64id: 2.0.0
       cookie: 0.4.1
       cors: 2.8.5
-      debug: 4.3.1
+      debug: 4.3.2
       engine.io-parser: 4.0.2
       ws: 7.4.2
     transitivePeerDependencies:
@@ -3330,7 +3318,7 @@ packages:
       cli-width: 3.0.0
       external-editor: 3.1.0
       figures: 3.2.0
-      lodash: 4.17.20
+      lodash: 4.17.21
       mute-stream: 0.0.8
       run-async: 2.4.1
       rxjs: 6.6.3
@@ -3717,7 +3705,7 @@ packages:
     resolution: {integrity: sha512-c16LpFRkR8vQXyHZ5nLpY35JZtzj1PQY1iZmesUbf1FZHbIupcWfjgOXBY9YHkLEQ6puz1u4Dgj6qmU/DisrZg==}
     engines: {node: '>=8'}
     dependencies:
-      debug: 4.3.1
+      debug: 4.3.2
       istanbul-lib-coverage: 3.0.0
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -4317,7 +4305,7 @@ packages:
       graceful-fs: 4.2.4
       http-proxy: 1.18.1
       isbinaryfile: 4.0.6
-      lodash: 4.17.20
+      lodash: 4.17.21
       log4js: 6.3.0
       mime: 2.5.0
       minimatch: 3.0.4
@@ -4501,7 +4489,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 3.0.0
-      debug: 4.3.1
+      debug: 4.3.2
       flatted: 2.0.2
       rfdc: 1.2.0
       streamroller: 2.2.4
@@ -5680,7 +5668,7 @@ packages:
     peerDependencies:
       request: ^2.34
     dependencies:
-      lodash: 4.17.20
+      lodash: 4.17.21
       request: 2.88.2
     dev: true
 
@@ -6155,7 +6143,7 @@ packages:
     dependencies:
       '@types/component-emitter': 1.2.10
       component-emitter: 1.3.0
-      debug: 4.3.1
+      debug: 4.3.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6183,7 +6171,7 @@ packages:
       '@types/node': 14.14.22
       accepts: 1.3.7
       base64id: 2.0.0
-      debug: 4.3.1
+      debug: 4.3.2
       engine.io: 4.1.0
       socket.io-adapter: 2.1.0
       socket.io-parser: 4.0.4
@@ -6321,7 +6309,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 2.1.0
-      debug: 4.3.1
+      debug: 4.3.2
       fs-extra: 8.1.0
     transitivePeerDependencies:
       - supports-color
@@ -7101,7 +7089,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       flat: 4.1.1
-      lodash: 4.17.20
+      lodash: 4.17.21
       yargs: 13.3.2
     dev: true
 
