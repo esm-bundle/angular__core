@@ -4,7 +4,7 @@ specifiers:
   '@angular/compiler': 12.2.13
   '@angular/compiler-cli': 12.2.13
   '@angular/core': 12.2.13
-  concurrently: 6.3.0
+  concurrently: 6.4.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.8
@@ -25,7 +25,7 @@ devDependencies:
   '@angular/compiler': 12.2.13
   '@angular/compiler-cli': 12.2.13_244789620a70483be2732bac2d77e830
   '@angular/core': 12.2.13_rxjs@7.4.0
-  concurrently: 6.3.0
+  concurrently: 6.4.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.8
@@ -1819,15 +1819,15 @@ packages:
       date-fns: 2.16.1
       lodash: 4.17.21
       read-pkg: 4.0.1
-      rxjs: 6.6.3
+      rxjs: 6.6.7
       spawn-command: 0.0.2-1
       supports-color: 6.1.0
       tree-kill: 1.2.2
       yargs: 13.3.2
     dev: true
 
-  /concurrently/6.3.0:
-    resolution: {integrity: sha512-k4k1jQGHHKsfbqzkUszVf29qECBrkvBKkcPJEUDTyVR7tZd1G/JOfnst4g1sYbFvJ4UjHZisj1aWQR8yLKpGPw==}
+  /concurrently/6.4.0:
+    resolution: {integrity: sha512-HZ3D0RTQMH3oS4gvtYj1P+NBc6PzE2McEra6yEFcQKrUQ9HvtTGU4Dbne083F034p+LRb7kWU0tPRNvSGs1UCQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
@@ -3205,7 +3205,7 @@ packages:
     hasBin: true
     requiresBuild: true
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       ci-info: 2.0.0
       compare-versions: 3.6.0
       cosmiconfig: 7.0.0
@@ -3317,7 +3317,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       ansi-escapes: 4.3.1
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-width: 3.0.0
       external-editor: 3.1.0
@@ -3325,7 +3325,7 @@ packages:
       lodash: 4.17.21
       mute-stream: 0.0.8
       run-async: 2.4.1
-      rxjs: 6.6.3
+      rxjs: 6.6.7
       string-width: 4.2.0
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -3345,7 +3345,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.3.0
+      rxjs: 7.4.0
       string-width: 4.2.0
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -4472,7 +4472,7 @@ packages:
     resolution: {integrity: sha512-FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUbvATujKCvaREGWpGUionraA==}
     engines: {node: '>=10'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
     dev: true
 
   /log-symbols/4.1.0:
@@ -4983,7 +4983,7 @@ packages:
     resolution: {integrity: sha512-s26qdWqke2kjN/wC4dy+IQPBIMWBJlSU/0JZhk30ZDBLelW25rv66yutUWARMigpGPzcXHb+Nac5pNhN/WsARw==}
     engines: {node: '>=10'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-spinners: 2.5.0
       is-interactive: 1.0.0
@@ -5842,24 +5842,11 @@ packages:
     resolution: {integrity: sha512-zb/1OuZ6flOlH6tQyMPUrE3x3Ulxjlo9WIVXR4yVYi4H9UXQaeIsPbLn2R3O3vQCnDKkAl2qHiuocKKX4Tz/Sw==}
     dev: true
 
-  /rxjs/6.6.3:
-    resolution: {integrity: sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==}
-    engines: {npm: '>=2.0.0'}
-    dependencies:
-      tslib: 1.14.1
-    dev: true
-
   /rxjs/6.6.7:
     resolution: {integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==}
     engines: {npm: '>=2.0.0'}
     dependencies:
       tslib: 1.14.1
-    dev: true
-
-  /rxjs/7.3.0:
-    resolution: {integrity: sha512-p2yuGIg9S1epc3vrjKf6iVb3RCaAYjYskkO+jHIaV0IjOPlJop4UnodOoFb2xeNwlguqLYvGw1b1McillYb5Gw==}
-    dependencies:
-      tslib: 2.1.0
     dev: true
 
   /rxjs/7.4.0:
