@@ -18,13 +18,13 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.70.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.5.4
+  rxjs: 7.5.5
   typescript: 4.6.2
 
 devDependencies:
   '@angular/compiler': 12.2.16
   '@angular/compiler-cli': 12.2.16_70c274982f9573316267f0c7ea000914
-  '@angular/core': 12.2.16_rxjs@7.5.4
+  '@angular/core': 12.2.16_rxjs@7.5.5
   concurrently: 7.0.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
@@ -39,7 +39,7 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.70.0
   rollup-plugin-terser: 7.0.2_rollup@2.70.0
-  rxjs: 7.5.4
+  rxjs: 7.5.5
   typescript: 4.6.2
 
 packages:
@@ -79,14 +79,14 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/12.2.16_rxjs@7.5.4:
+  /@angular/core/12.2.16_rxjs@7.5.5:
     resolution: {integrity: sha512-jsmvaRdAfng99z2a9mAmkfcsCE1wm+tBYVDxnc5JquSXznwtncjzcoc2X0J0dzrkCDvzFfpTsZ9vehylytBc+A==}
     engines: {node: ^12.14.1 || >=14.0.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.0.0
       zone.js: ~0.11.4
     dependencies:
-      rxjs: 7.5.4
+      rxjs: 7.5.5
       tslib: 2.3.0
     dev: true
 
@@ -3258,7 +3258,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.5.4
+      rxjs: 7.5.5
       string-width: 4.2.0
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -5749,8 +5749,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.5.4:
-    resolution: {integrity: sha512-h5M3Hk78r6wAheJF0a5YahB1yRQKCsZ4MsGdZ5O9ETbVtjPcScGfrMmoOq7EBsCRzd4BDkvDJ7ogP8Sz5tTFiQ==}
+  /rxjs/7.5.5:
+    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
     dependencies:
       tslib: 2.3.0
     dev: true
