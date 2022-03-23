@@ -1,18 +1,23 @@
+import { join } from "path";
 import { terser } from "rollup-plugin-terser";
 import packageJson from "@angular/core/package.json";
 
 export default [
-  createConfig({ prod: false, format: "system" }),
-  createConfig({ prod: true, format: "system" }),
-  createConfig({ prod: false, format: "es" }),
-  createConfig({ prod: true, format: "es" }),
+  ...["2015", "2020"]
+    .map((ecma) => [
+      createConfig({ ecma, prod: false, format: "system" }),
+      createConfig({ ecma, prod: true, format: "system" }),
+      createConfig({ ecma, prod: false, format: "es" }),
+      createConfig({ ecma, prod: true, format: "es" }),
+    ])
+    .flat(),
 ];
 
-function createConfig({ prod, format }) {
-  const dir = (format === "es" ? "." : format) + "/es2015/ivy";
+function createConfig({ ecma, prod, format }) {
+  const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
 
   return {
-    input: require.resolve("@angular/core/fesm2015/core.js"),
+    input: join(__dirname, `node_modules/@angular/core/fesm${ecma}/core.mjs`),
     output: {
       file: `${dir}/angular-core.${prod ? "min." : ""}js`,
       format,
@@ -23,8 +28,8 @@ function createConfig({ prod, format }) {
       prod &&
         terser({
           format: {
+            ecma,
             comments: /esm-bundle/,
-            ecma: "2015",
           },
         }),
     ],

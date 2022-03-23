@@ -12,6 +12,8 @@ Upstream repo at https://github.com/angular/angular.
 
 ### Latest Version
 
+#### ES2015
+
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/ivy/angular-core.js
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/ivy/angular-core.min.js
@@ -19,6 +21,16 @@ https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2015/ivy/angular
 https://unpkg.com/@esm-bundle/angular__core/system/es2015/ivy/angular-core.js
 
 https://unpkg.com/@esm-bundle/angular__core/system/es2015/ivy/angular-core.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2020/ivy/angular-core.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core/system/es2020/ivy/angular-core.min.js
+
+https://unpkg.com/@esm-bundle/angular__core/system/es2020/ivy/angular-core.js
+
+https://unpkg.com/@esm-bundle/angular__core/system/es2020/ivy/angular-core.min.js
 
 ### Specific Version
 
