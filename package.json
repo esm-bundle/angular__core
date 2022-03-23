@@ -20,6 +20,7 @@
   },
   "files": [
     "es2015",
+    "es2020",
     "system"
   ],
   "repository": {
@@ -33,9 +34,9 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__core#readme",
   "devDependencies": {
-    "@angular/compiler": "12.2.16",
-    "@angular/compiler-cli": "12.2.16",
-    "@angular/core": "12.2.16",
+    "@angular/compiler": "13.3.0",
+    "@angular/compiler-cli": "13.3.0",
+    "@angular/core": "13.3.0",
     "concurrently": "7.0.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "7.0.4",
