@@ -31,6 +31,13 @@ function createConfig({ ecma, prod, format }) {
             ecma,
             comments: /esm-bundle/,
           },
+          compress: {
+            global_defs: {
+              ngJitMode: false,
+              ngDevMode: false,
+              ngI18nClosureMode: false,
+            },
+          },
         }),
     ],
     external: ["rxjs", "rxjs/operators"],

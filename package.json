@@ -4,14 +4,18 @@
   "description": "Repo to test esm-bundle's automatic publishing",
   "type": "module",
   "exports": {
-    ".": "./es2015/ivy/angular-core.js"
+    ".": {
+      "es2015": "./es2015/ivy/angular-core.js",
+      "es2020": "./es2020/ivy/angular-core.js",
+      "default": "./es2020/ivy/angular-core.js"
+    }
   },
   "scripts": {
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:formatting": "prettier --check .",
-    "build": "rimraf system es2015 && rollup -c",
+    "build": "rimraf system es2015 es2020 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
     "postinstall": "husky install",
