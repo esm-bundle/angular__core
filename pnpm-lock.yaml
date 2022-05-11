@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 13.3.5
-  '@angular/compiler-cli': 13.3.5
-  '@angular/core': 13.3.5
+  '@angular/compiler': 13.3.7
+  '@angular/compiler-cli': 13.3.7
+  '@angular/core': 13.3.7
   concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
@@ -22,9 +22,9 @@ specifiers:
   typescript: 4.6.4
 
 devDependencies:
-  '@angular/compiler': 13.3.5
-  '@angular/compiler-cli': 13.3.5_b07c62e2cc9b87cabff59ee153cd6f69
-  '@angular/core': 13.3.5_rxjs@7.5.5
+  '@angular/compiler': 13.3.7
+  '@angular/compiler-cli': 13.3.7_43b3a48857112947fff968eec096951b
+  '@angular/core': 13.3.7_rxjs@7.5.5
   concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
@@ -51,22 +51,22 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/13.3.5_b07c62e2cc9b87cabff59ee153cd6f69:
-    resolution: {integrity: sha512-H7A+MZcbB4g5fa6O4giYgrCG1h5whJfIxr4txDtDfolygzwRzqH1PSMfjW/jYyIpaH6XqXMSDHvbXRFGKstboA==}
+  /@angular/compiler-cli/13.3.7_43b3a48857112947fff968eec096951b:
+    resolution: {integrity: sha512-Flr8uvdMx/PrCXsGCBOTEpDW1zF589xAcioT1ittcAPDGsbuXvqeE6Gk/otwcl6JCjYEHmWcxtgspWxgmLFgYg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       typescript: '>=4.4.2 <4.7'
     dependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       '@babel/core': 7.17.8
       chokidar: 3.5.1
       convert-source-map: 1.7.0
       dependency-graph: 0.11.0
       magic-string: 0.26.1
       reflect-metadata: 0.1.13
-      semver: 7.3.6
+      semver: 7.3.7
       sourcemap-codec: 1.4.8
       tslib: 2.3.0
       typescript: 4.6.4
@@ -75,15 +75,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/13.3.5:
-    resolution: {integrity: sha512-iSQlYevMk5glwZSXTXf2GytykqZWdK3Rr8heIvEPqd8n88MSB3w1KnDc1fnHLF950q/nUR9K+3r4wWPwc8J2IQ==}
+  /@angular/compiler/13.3.7:
+    resolution: {integrity: sha512-840eWcLrWnrk2JP1VOdWWCampd2wRU5eyVLK5Ksv9tqw8WqBW/+kDgen9ubPpohQRpro92l6xStcBRYLhXDTZQ==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     dependencies:
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/13.3.5_rxjs@7.5.5:
-    resolution: {integrity: sha512-lf+Be8dDRvz8J+QFR2RxS3BBfgGM4eWq4bI1+k/aqDnM6OW4pQXdq8Lzae8SxN48u1NxB1M/1bbc9LcrChrj2Q==}
+  /@angular/core/13.3.7_rxjs@7.5.5:
+    resolution: {integrity: sha512-J3fwnue/Mc0LWMk5wTDl56N42P6IxGS2+BLDZmTV5sG9nYCM/dQvIyYIys/RKsQrA0+UbusWesEZDRYWG5zTYg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -815,7 +815,7 @@ packages:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
-      picomatch: 2.2.2
+      picomatch: 2.3.1
       rollup: 2.72.1
     dev: true
 
@@ -4929,12 +4929,6 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lru-cache/7.8.0:
-    resolution: {integrity: sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==}
-    engines: {node: '>=12'}
-    deprecated: Please update to latest patch version to fix memory leak https://github.com/isaacs/node-lru-cache/issues/227
-    dev: true
-
   /macos-release/2.5.0:
     resolution: {integrity: sha512-EIgv+QZ9r+814gjJj0Bt5vSLJLzswGmSUbUpbi9AIr/fsN2IWFBl2NucV9PAiek+U1STK468tEkxmVYUtuAN3g==}
     engines: {node: '>=6'}
@@ -5737,11 +5731,6 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /picomatch/2.2.2:
-    resolution: {integrity: sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==}
-    engines: {node: '>=8.6'}
-    dev: true
-
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -6487,14 +6476,6 @@ packages:
     resolution: {integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: true
-
-  /semver/7.3.6:
-    resolution: {integrity: sha512-HZWqcgwLsjaX1HBD31msI/rXktuIhS+lWvdE4kN9z+8IVT4Itc7vqU2WvYsyD6/sjYCt4dEKH/m1M3dwI9CC5w==}
-    engines: {node: ^10.0.0 || ^12.0.0 || ^14.0.0 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      lru-cache: 7.8.0
     dev: true
 
   /semver/7.3.7:
