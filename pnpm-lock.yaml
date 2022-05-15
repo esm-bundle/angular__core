@@ -4,7 +4,7 @@ specifiers:
   '@angular/compiler': 13.3.8
   '@angular/compiler-cli': 13.3.8
   '@angular/core': 13.3.8
-  concurrently: 7.1.0
+  concurrently: 7.2.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
   karma: 6.3.20
@@ -25,7 +25,7 @@ devDependencies:
   '@angular/compiler': 13.3.8
   '@angular/compiler-cli': 13.3.8_794f832984e63b4a0c0623ed3b47da20
   '@angular/core': 13.3.8_rxjs@7.5.5
-  concurrently: 7.1.0
+  concurrently: 7.2.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
   karma: 6.3.20
@@ -1907,8 +1907,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/7.1.0:
-    resolution: {integrity: sha512-Bz0tMlYKZRUDqJlNiF/OImojMB9ruKUz6GCfmhFnSapXgPe+3xzY4byqoKG9tUZ7L2PGEUjfLPOLfIX3labnmw==}
+  /concurrently/7.2.0:
+    resolution: {integrity: sha512-4KIVY5HopDRhN3ndAgfFOLsMk1PZUPgghlgTMZ5Pb5aTrqYg86RcZaIZC2Cz+qpZ9DsX36WHGjvWnXPqdnblhw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -1916,10 +1916,11 @@ packages:
       date-fns: 2.16.1
       lodash: 4.17.21
       rxjs: 6.6.7
+      shell-quote: 1.7.3
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
       tree-kill: 1.2.2
-      yargs: 16.2.0
+      yargs: 17.4.0
     dev: true
 
   /configstore/5.0.1:
@@ -6532,6 +6533,10 @@ packages:
   /shebang-regex/3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
+    dev: true
+
+  /shell-quote/1.7.3:
+    resolution: {integrity: sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==}
     dev: true
 
   /shelljs/0.8.4:
