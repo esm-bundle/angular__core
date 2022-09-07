@@ -41,7 +41,7 @@
     "@angular/compiler": "14.2.0",
     "@angular/compiler-cli": "14.2.0",
     "@angular/core": "14.2.0",
-    "concurrently": "7.3.0",
+    "concurrently": "7.4.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.1",
     "karma": "6.4.0",
