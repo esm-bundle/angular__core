@@ -6,7 +6,7 @@ specifiers:
   '@angular/core': 15.0.4
   concurrently: 7.6.0
   esm-bundle-scripts: 1.2.0
-  husky: 8.0.2
+  husky: 8.0.3
   karma: 6.4.1
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
@@ -27,7 +27,7 @@ devDependencies:
   '@angular/core': 15.0.4_rxjs@7.8.0
   concurrently: 7.6.0
   esm-bundle-scripts: 1.2.0
-  husky: 8.0.2
+  husky: 8.0.3
   karma: 6.4.1
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0_karma@6.4.1
@@ -3757,8 +3757,8 @@ packages:
       which-pm-runs: 1.0.0
     dev: true
 
-  /husky/8.0.2:
-    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
