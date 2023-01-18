@@ -1,9 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 15.1.0
-  '@angular/compiler-cli': 15.1.0
-  '@angular/core': 15.1.0
+  '@angular/compiler': 15.1.1
+  '@angular/compiler-cli': 15.1.1
+  '@angular/core': 15.1.1
   concurrently: 7.6.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
@@ -22,9 +22,9 @@ specifiers:
   typescript: 4.9.4
 
 devDependencies:
-  '@angular/compiler': 15.1.0_@angular+core@15.1.0
-  '@angular/compiler-cli': 15.1.0_15bafbb1e0a017717761ec75c5136f92
-  '@angular/core': 15.1.0_rxjs@7.8.0
+  '@angular/compiler': 15.1.1_@angular+core@15.1.1
+  '@angular/compiler-cli': 15.1.1_f08767d49b85e0ec62c7b5c5289fe27c
+  '@angular/core': 15.1.1_rxjs@7.8.0
   concurrently: 7.6.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
@@ -48,18 +48,18 @@ packages:
     resolution: {integrity: sha512-hoyByceqwKirw7w3Z7gnIIZC3Wx3J484Y3L/cMpXFbr7d9ZQj2mODrirNzcJa+SM3UlpWXYvKV4RlRpFXlWgXg==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.4
+      '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/compiler-cli/15.1.0_15bafbb1e0a017717761ec75c5136f92:
-    resolution: {integrity: sha512-mKeXolM/plP9ebkHy3YGxHx0Yg63d09S0QCpdIcmvrbJpaPeM2D1SAkbDpO46T4BsfgfWHtSYByb5JcesrYrpQ==}
+  /@angular/compiler-cli/15.1.1_f08767d49b85e0ec62c7b5c5289fe27c:
+    resolution: {integrity: sha512-sBYvh6Y08aKuZPAVwzT1YGVfG63xeXElEfAfq6No9FLUHDo83QB9fU7ovXnu1RJFJiVIy16DHjmTpAmgvlomGA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 15.1.0
+      '@angular/compiler': 15.1.1
       typescript: '>=4.8.2 <5.0'
     dependencies:
-      '@angular/compiler': 15.1.0_@angular+core@15.1.0
+      '@angular/compiler': 15.1.1_@angular+core@15.1.1
       '@babel/core': 7.19.3
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.1
@@ -75,21 +75,21 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/15.1.0_@angular+core@15.1.0:
-    resolution: {integrity: sha512-+ky5Cvgps725Q/KdgsYzi/fe9LbT5ujhZoT9N5k+tYTJsepMUrpExFwMFkWrdMUYTK7DaxC9ufjZ4WZmHVhFoA==}
+  /@angular/compiler/15.1.1_@angular+core@15.1.1:
+    resolution: {integrity: sha512-A35iXLTTDEej4F2tm5t1flA+5Tv+jYAkQx+d0xvH6LDiWvsiDsOe5OjP8L2LD8dejwWl/JYUz2TH0JZcvw0uqA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
-      '@angular/core': 15.1.0
+      '@angular/core': 15.1.1
     peerDependenciesMeta:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 15.1.0_rxjs@7.8.0
+      '@angular/core': 15.1.1_rxjs@7.8.0
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/15.1.0_rxjs@7.8.0:
-    resolution: {integrity: sha512-HiwctuR73MuLoLeP35j9xF8/SIg7ELx+iHZtp/TBfoH+LOmjWbdrAdVAPTbqnxvK0aJG+527dhgC6tBOXgBTcg==}
+  /@angular/core/15.1.1_rxjs@7.8.0:
+    resolution: {integrity: sha512-nsz+IXdkQanAGhqA2vcwTrGGyw5zIm3TgtYQ/JqK185qkmlhsQfSRvdSPsFPhmIFYp9ngZVUbkhY3D4P3gDzIg==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -631,11 +631,6 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@jridgewell/resolve-uri/3.0.5:
-    resolution: {integrity: sha512-VPeQ7+wH0itvQxnG+lIzWgkysKIr3L9sslimFW55rHMdGu/qCQ5z5h9zq4gI8uBtqkpHhsF4Z/OwExufUCThew==}
-    engines: {node: '>=6.0.0'}
-    dev: true
-
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
     engines: {node: '>=6.0.0'}
@@ -654,13 +649,6 @@ packages:
     resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
-    dev: true
-
-  /@jridgewell/trace-mapping/0.3.4:
-    resolution: {integrity: sha512-vFv9ttIedivx0ux3QSjhgtCVjPZd5l46ZOMDSCwnH1yUO2e964gO8LZGyv2QkqcgR6TnBU1v+1IFqmeoG+0UJQ==}
-    dependencies:
-      '@jridgewell/resolve-uri': 3.0.5
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
