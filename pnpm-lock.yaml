@@ -18,13 +18,13 @@ specifiers:
   rimraf: 5.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.8.0
+  rxjs: 7.8.1
   typescript: 5.0.4
 
 devDependencies:
   '@angular/compiler': 15.2.8_@angular+core@15.2.8
   '@angular/compiler-cli': 15.2.8_8793ce877b18d8186f5265e1e01d5497
-  '@angular/core': 15.2.8_rxjs@7.8.0
+  '@angular/core': 15.2.8_rxjs@7.8.1
   concurrently: 8.0.1
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
@@ -39,7 +39,7 @@ devDependencies:
   rimraf: 5.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
-  rxjs: 7.8.0
+  rxjs: 7.8.1
   typescript: 5.0.4
 
 packages:
@@ -84,18 +84,18 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 15.2.8_rxjs@7.8.0
+      '@angular/core': 15.2.8_rxjs@7.8.1
       tslib: 2.3.0
     dev: true
 
-  /@angular/core/15.2.8_rxjs@7.8.0:
+  /@angular/core/15.2.8_rxjs@7.8.1:
     resolution: {integrity: sha512-NDs+g4uM4EhyCvluf8a0YBCFXsDAEfCMHOD5cS00Bl+liTQ7JwtmepkWXMyjLB92irC9JaR79kdy4BoIKOh8WA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.11.4 || ~0.12.0 || ~0.13.0
     dependencies:
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       tslib: 2.3.0
     dev: true
 
@@ -2119,7 +2119,7 @@ packages:
       chalk: 4.1.2
       date-fns: 2.29.3
       lodash: 4.17.21
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       shell-quote: 1.8.0
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
@@ -3966,7 +3966,7 @@ packages:
       mute-stream: 1.0.0
       ora: 6.3.0
       run-async: 2.4.1
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       string-width: 5.1.2
       strip-ansi: 7.0.1
       through: 2.3.8
@@ -6943,8 +6943,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.8.0:
-    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
+  /rxjs/7.8.1:
+    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
       tslib: 2.3.0
     dev: true
