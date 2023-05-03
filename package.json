@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__core",
-  "version": "15.2.8",
+  "version": "15.2.9",
   "description": "Repo to test esm-bundle's automatic publishing",
   "type": "module",
   "exports": {
