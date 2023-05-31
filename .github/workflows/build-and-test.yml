@@ -43,7 +43,7 @@ jobs:
           node-version: "15"
       - uses: pnpm/action-setup@v2.2.4
         with:
-          version: 5.17.3
+          version: 6.0.2
       - run: pnpm install --frozen-lockfile
       - name: Setup auth
         run: |
