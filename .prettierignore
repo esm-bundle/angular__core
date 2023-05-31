@@ -10,5 +10,4 @@ system/
 karma.conf.cjs
 .nvmrc
 pnpm-lock.yaml
-es2015
-es2020
+es2022

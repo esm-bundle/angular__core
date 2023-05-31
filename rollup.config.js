@@ -3,7 +3,7 @@ import { terser } from "rollup-plugin-terser";
 import packageJson from "@angular/core/package.json";
 
 export default [
-  ...["2015", "2020"]
+  ...["2022"]
     .map((ecma) => [
       createConfig({ ecma, prod: false, format: "system" }),
       createConfig({ ecma, prod: true, format: "system" }),
