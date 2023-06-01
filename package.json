@@ -37,9 +37,9 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__core#readme",
   "devDependencies": {
-    "@angular/compiler": "16.0.3",
-    "@angular/compiler-cli": "16.0.3",
-    "@angular/core": "16.0.3",
+    "@angular/compiler": "16.0.4",
+    "@angular/compiler-cli": "16.0.4",
+    "@angular/core": "16.0.4",
     "concurrently": "8.0.1",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.3",
