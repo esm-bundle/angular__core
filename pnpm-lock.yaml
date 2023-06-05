@@ -17,7 +17,7 @@ specifiers:
   pinst: 3.0.0
   prettier: 2.8.8
   pretty-quick: 3.1.3
-  release-it: 15.10.5
+  release-it: 15.11.0
   release-it-plugin-esm-bundle: 3.0.0
   rimraf: 5.0.1
   rollup: 2.79.1
@@ -39,8 +39,8 @@ devDependencies:
   pinst: 3.0.0
   prettier: 2.8.8
   pretty-quick: 3.1.3_prettier@2.8.8
-  release-it: 15.10.5
-  release-it-plugin-esm-bundle: 3.0.0_release-it@15.10.5
+  release-it: 15.11.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@15.11.0
   rimraf: 5.0.1
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
@@ -6834,12 +6834,12 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@15.10.5:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@15.11.0:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 15.10.5
+      release-it: 15.11.0
     dev: true
 
   /release-it/13.7.2:
@@ -6882,8 +6882,8 @@ packages:
       - encoding
     dev: true
 
-  /release-it/15.10.5:
-    resolution: {integrity: sha512-6AWkcOYsEfCzegtAKvXekUG+CLjlFXztDwGzxFOGa8VJRuXbPONfM8rvaPYJX1hTlL5+KC4MWOEoKKzWhQ65gA==}
+  /release-it/15.11.0:
+    resolution: {integrity: sha512-lZwoGEnKYKwGnfxxlA7vtR7vvozPrOSsIgQaHO4bgQ5ARbG3IA6Dmo0IVusv6nR1KmnjH70QIeNAgsWs6Ji/tw==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:
