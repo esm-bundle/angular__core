@@ -7,7 +7,7 @@ specifiers:
   '@angular/compiler': 16.0.5
   '@angular/compiler-cli': 16.0.5
   '@angular/core': 16.0.5
-  concurrently: 8.2.1
+  concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
   karma: 6.4.2
@@ -29,7 +29,7 @@ devDependencies:
   '@angular/compiler': 16.0.5_@angular+core@16.0.5
   '@angular/compiler-cli': 16.0.5_op6xql73k6prgoemswy6ud3fai
   '@angular/core': 16.0.5_rxjs@7.8.1
-  concurrently: 8.2.1
+  concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
   karma: 6.4.2
@@ -2241,8 +2241,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/8.2.1:
-    resolution: {integrity: sha512-nVraf3aXOpIcNud5pB9M82p1tynmZkrSGQ1p6X/VY8cJ+2LMVqAgXsJxYYefACSHbTYlm92O1xuhdGTjwoEvbQ==}
+  /concurrently/8.2.2:
+    resolution: {integrity: sha512-1dP4gpXFhei8IOtlXRE/T/4H88ElHgTiUzh71YUmtjTEHMSRS2Z/fgOxHSxxusGHogsRfxNq1vyAwxSC+EVyDg==}
     engines: {node: ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
