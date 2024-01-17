@@ -16,7 +16,7 @@ specifiers:
   patch-package: 8.0.0
   pinst: 3.0.0
   prettier: 2.8.8
-  pretty-quick: 3.3.0
+  pretty-quick: 3.3.1
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0
   rimraf: 5.0.5
@@ -38,7 +38,7 @@ devDependencies:
   patch-package: 8.0.0
   pinst: 3.0.0
   prettier: 2.8.8
-  pretty-quick: 3.3.0_prettier@2.8.8
+  pretty-quick: 3.3.1_prettier@2.8.8
   release-it: 17.0.1_typescript@5.3.3
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.1
   rimraf: 5.0.5
@@ -6643,8 +6643,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/3.3.0_prettier@2.8.8:
-    resolution: {integrity: sha512-jjGAXpGvKTQj4Wses5yfEz4pBJHWX604iL4RVGwIgZyh0XOdoFW3difW0iv8zuWU0MUEuP3dI60FKoXK35J9TQ==}
+  /pretty-quick/3.3.1_prettier@2.8.8:
+    resolution: {integrity: sha512-3b36UXfYQ+IXXqex6mCca89jC8u0mYLqFAN5eTQKoXO6oCQYcIVYZEB/5AlBHI7JPYygReM2Vv6Vom/Gln7fBg==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
