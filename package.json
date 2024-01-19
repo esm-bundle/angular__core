@@ -1,12 +1,20 @@
 {
   "name": "@esm-bundle/angular__core",
-  "version": "16.0.5",
+  "version": "17.1.0",
   "description": "Repo to test esm-bundle's automatic publishing",
   "type": "module",
   "exports": {
     ".": {
       "es2022": "./es2022/ivy/angular-core.js",
       "default": "./es2020/ivy/angular-core.js"
+    },
+    "./signals": {
+      "es2022": "./es2022/ivy/primitives/angular-signals.mjs",
+      "default": "./es2022/ivy/primitives/angular-signals.mjs"
+    },
+    "./rxjs-interop": {
+      "es2022": "./es2022/ivy/angular-rxjs-interop.mjs",
+      "default": "./es2022/ivy/angular-rxjs-interop.mjs"
     }
   },
   "scripts": {
@@ -37,9 +45,9 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__core#readme",
   "devDependencies": {
-    "@angular/compiler": "16.0.5",
-    "@angular/compiler-cli": "16.0.5",
-    "@angular/core": "16.0.5",
+    "@angular/compiler": "^17.1.0",
+    "@angular/compiler-cli": "^17.1.0",
+    "@angular/core": "^17.1.0",
     "concurrently": "8.2.2",
     "esm-bundle-scripts": "1.2.0",
     "husky": "9.1.1",
