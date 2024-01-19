@@ -45,9 +45,9 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__core#readme",
   "devDependencies": {
-    "@angular/compiler": "^17.1.0",
-    "@angular/compiler-cli": "^17.1.0",
-    "@angular/core": "^17.1.0",
+    "@angular/compiler": "17.1.0",
+    "@angular/compiler-cli": "17.1.0",
+    "@angular/core": "17.1.0",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-terser": "0.4.4",
     "concurrently": "8.2.2",
