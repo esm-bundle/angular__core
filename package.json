@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__core",
-  "version": "17.1.0",
+  "version": "17.3.4",
   "description": "Repo to test esm-bundle's automatic publishing",
   "type": "module",
   "exports": {
@@ -45,10 +45,11 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__core#readme",
   "devDependencies": {
-    "@angular/compiler": "17.1.0",
-    "@angular/compiler-cli": "17.1.0",
-    "@angular/core": "17.1.0",
+    "@angular/compiler": "17.3.4",
+    "@angular/compiler-cli": "17.3.4",
+    "@angular/core": "17.3.4",
     "@rollup/plugin-babel": "6.0.4",
+    "@rollup/plugin-terser": "0.4.4",
     "concurrently": "8.2.2",
     "esm-bundle-scripts": "1.2.0",
     "husky": "9.1.1",
@@ -63,7 +64,6 @@
     "release-it-plugin-esm-bundle": "3.0.0",
     "rimraf": "6.0.1",
     "rollup": "2.79.1",
-    "rollup-plugin-terser": "7.0.2",
     "rxjs": "7.8.1",
     "typescript": "5.5.4"
   },
@@ -72,7 +72,7 @@
       "terser": "5.31.3"
     },
     "patchedDependencies": {
-      "@angular/core@17.1.0": "patches/@angular__core@17.1.0.patch"
+      "@angular/core@17.3.4": "patches/@angular__core@17.3.4.patch"
     }
   }
 }

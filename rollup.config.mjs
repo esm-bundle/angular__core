@@ -3,7 +3,7 @@ import fs from "fs";
 import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
 import {
   ConsoleLogger,

@@ -1,8 +1,8 @@
 diff --git a/fesm2022/core.mjs b/fesm2022/core.mjs
-index 779179a684cb94f1a7bb080eec0508e4327949cb..130d7fcd514e9f3004ff87ba72a6f29ec2123bd7 100644
+index 83f747bc8abdaa442716af2fae24561ad134b952..c494c88264cb9dd0afab37d1dc60cefb65103cee 100755
 --- a/fesm2022/core.mjs
 +++ b/fesm2022/core.mjs
-@@ -25364,7 +25364,9 @@ function symbolIterator() {
+@@ -6915,7 +6915,9 @@ function symbolIterator() {
   * @publicApi
   */
  class QueryList {
