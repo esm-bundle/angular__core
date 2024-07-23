@@ -1,0 +1,15 @@
+diff --git a/fesm2022/core.mjs b/fesm2022/core.mjs
+index 779179a684cb94f1a7bb080eec0508e4327949cb..130d7fcd514e9f3004ff87ba72a6f29ec2123bd7 100644
+--- a/fesm2022/core.mjs
++++ b/fesm2022/core.mjs
+@@ -25364,7 +25364,9 @@ function symbolIterator() {
+  * @publicApi
+  */
+ class QueryList {
+-    static { Symbol.iterator; }
++    // Terser is not friendly with static initialization blocks:
++    // https://github.com/TrySound/rollup-plugin-terser/issues/112
++    // static { Symbol.iterator; }
+     /**
+      * Returns `Observable` of `QueryList` notifying the subscriber of changes.
+      */

@@ -1,8 +1,9 @@
+import os from "os";
 import fs from "fs";
 import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
-import terser from "@rollup/plugin-terser";
+import { terser } from "rollup-plugin-terser";
 import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
 import {
   ConsoleLogger,
@@ -10,7 +11,9 @@ import {
   LogLevel,
 } from "@angular/compiler-cli";
 
-const __dirname = new url.URL(".", import.meta.url).pathname;
+const isWin = os.platform() === "win32";
+let __dirname = new url.URL(".", import.meta.url).pathname;
+__dirname = isWin ? __dirname.replace(/^\//, '') : __dirname;
 const packageJson = JSON.parse(
   fs
     .readFileSync(
