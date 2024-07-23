@@ -1,8 +1,8 @@
-diff --git a/node_modules/@angular/core/fesm2022/core.mjs b/node_modules/@angular/core/fesm2022/core.mjs
-index 30b1cad..a54b3bf 100755
---- a/node_modules/@angular/core/fesm2022/core.mjs
-+++ b/node_modules/@angular/core/fesm2022/core.mjs
-@@ -22737,7 +22737,9 @@ function symbolIterator() {
+diff --git a/fesm2022/core.mjs b/fesm2022/core.mjs
+index 83f747bc8abdaa442716af2fae24561ad134b952..c494c88264cb9dd0afab37d1dc60cefb65103cee 100755
+--- a/fesm2022/core.mjs
++++ b/fesm2022/core.mjs
+@@ -6915,7 +6915,9 @@ function symbolIterator() {
   * @publicApi
   */
  class QueryList {
