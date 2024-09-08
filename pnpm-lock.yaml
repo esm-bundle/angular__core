@@ -7,7 +7,7 @@ specifiers:
   '@angular/compiler': 16.0.5
   '@angular/compiler-cli': 16.0.5
   '@angular/core': 16.0.5
-  concurrently: 8.2.2
+  concurrently: 9.0.0
   esm-bundle-scripts: 1.2.0
   husky: 9.1.5
   karma: 6.4.4
@@ -29,7 +29,7 @@ devDependencies:
   '@angular/compiler': 16.0.5_@angular+core@16.0.5
   '@angular/compiler-cli': 16.0.5_y624v2bnjywj35s7z6sm5uquau
   '@angular/core': 16.0.5_rxjs@7.8.1
-  concurrently: 8.2.2
+  concurrently: 9.0.0
   esm-bundle-scripts: 1.2.0
   husky: 9.1.5
   karma: 6.4.4
@@ -2205,17 +2205,15 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/8.2.2:
-    resolution: {integrity: sha512-1dP4gpXFhei8IOtlXRE/T/4H88ElHgTiUzh71YUmtjTEHMSRS2Z/fgOxHSxxusGHogsRfxNq1vyAwxSC+EVyDg==}
-    engines: {node: ^14.13.0 || >=16.0.0}
+  /concurrently/9.0.0:
+    resolution: {integrity: sha512-iAxbsDeUkn8E/4+QalT7T3WvlyTfmsoez+19lbbcsxZdOEMfBukd8LA30KYez2UR5xkKFzbcqXIZy5RisCbaxw==}
+    engines: {node: '>=18'}
     hasBin: true
     dependencies:
       chalk: 4.1.2
-      date-fns: 2.30.0
       lodash: 4.17.21
       rxjs: 7.8.1
       shell-quote: 1.8.1
-      spawn-command: 0.0.2
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -7682,10 +7680,6 @@ packages:
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     deprecated: Please use @jridgewell/sourcemap-codec instead
-    dev: true
-
-  /spawn-command/0.0.2:
-    resolution: {integrity: sha512-zC8zGoGkmc8J9ndvml8Xksr1Amk9qBujgbF0JAIWO7kXr43w0h/0GJNM/Vustixu+YE8N/MTrQ7N31FvHUACxQ==}
     dev: true
 
   /spawn-command/0.0.2-1:
