@@ -60,7 +60,7 @@
   },
   "pnpm": {
     "overrides": {
-      "terser": "5.35.0"
+      "terser": "5.36.0"
     }
   }
 }
