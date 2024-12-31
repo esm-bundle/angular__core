@@ -7,6 +7,7 @@ specifiers:
   '@angular/compiler': 16.0.5
   '@angular/compiler-cli': 16.0.5
   '@angular/core': 16.0.5
+  '@rollup/plugin-terser': 0.1.0
   concurrently: 9.1.2
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -21,7 +22,6 @@ specifiers:
   release-it-plugin-esm-bundle: 3.0.0
   rimraf: 6.0.1
   rollup: 2.79.2
-  rollup-plugin-terser: 7.0.2
   rxjs: 7.8.1
   typescript: 5.7.2
 
@@ -29,6 +29,7 @@ devDependencies:
   '@angular/compiler': 16.0.5_@angular+core@16.0.5
   '@angular/compiler-cli': 16.0.5_nmz2cgrcyjpeytepwkdmv4gdgm
   '@angular/core': 16.0.5_rxjs@7.8.1
+  '@rollup/plugin-terser': 0.1.0_rollup@2.79.2
   concurrently: 9.1.2
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -43,7 +44,6 @@ devDependencies:
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.11.0
   rimraf: 6.0.1
   rollup: 2.79.2
-  rollup-plugin-terser: 7.0.2_rollup@2.79.2
   rxjs: 7.8.1
   typescript: 5.7.2
 
@@ -1022,6 +1022,19 @@ packages:
       is-module: 1.0.0
       resolve: 1.22.2
       rollup: 2.79.2
+    dev: true
+
+  /@rollup/plugin-terser/0.1.0_rollup@2.79.2:
+    resolution: {integrity: sha512-N2KK+qUfHX2hBzVzM41UWGLrEmcjVC37spC8R3c9mt3oEDFKh3N2e12/lLp9aVSt86veR0TQiCNQXrm8C6aiUQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.x || ^3.x
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      rollup: 2.79.2
+      terser: 5.37.0
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.79.2:
@@ -5001,15 +5014,6 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /jest-worker/26.6.2:
-    resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
-    engines: {node: '>= 10.13.0'}
-    dependencies:
-      '@types/node': 20.2.5
-      merge-stream: 2.0.0
-      supports-color: 7.2.0
-    dev: true
-
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
@@ -7042,19 +7046,6 @@ packages:
       jest-worker: 24.9.0
       rollup: 2.79.2
       rollup-pluginutils: 2.8.2
-      serialize-javascript: 4.0.0
-      terser: 5.37.0
-    dev: true
-
-  /rollup-plugin-terser/7.0.2_rollup@2.79.2:
-    resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
-    deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
-    peerDependencies:
-      rollup: ^2.0.0
-    dependencies:
-      '@babel/code-frame': 7.21.4
-      jest-worker: 26.6.2
-      rollup: 2.79.2
       serialize-javascript: 4.0.0
       terser: 5.37.0
     dev: true
