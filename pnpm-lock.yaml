@@ -22,13 +22,13 @@ specifiers:
   rimraf: 6.0.1
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.8.1
+  rxjs: 7.8.2
   typescript: 5.7.3
 
 devDependencies:
   '@angular/compiler': 16.0.5_@angular+core@16.0.5
   '@angular/compiler-cli': 16.0.5_5sisgh2c42hcqb3uc4sndq3jm4
-  '@angular/core': 16.0.5_rxjs@7.8.1
+  '@angular/core': 16.0.5_rxjs@7.8.2
   concurrently: 9.1.2
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -44,7 +44,7 @@ devDependencies:
   rimraf: 6.0.1
   rollup: 2.79.2
   rollup-plugin-terser: 7.0.2_rollup@2.79.2
-  rxjs: 7.8.1
+  rxjs: 7.8.2
   typescript: 5.7.3
 
 packages:
@@ -88,18 +88,18 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 16.0.5_rxjs@7.8.1
+      '@angular/core': 16.0.5_rxjs@7.8.2
       tslib: 2.5.2
     dev: true
 
-  /@angular/core/16.0.5_rxjs@7.8.1:
+  /@angular/core/16.0.5_rxjs@7.8.2:
     resolution: {integrity: sha512-zZYcL10eKkwjR0zIjJzqlyKpu+a0aPQrSdVUDc/ugEEcf80sN/BBEQxC8CNqccbUDFUIk/qPi/2Q9b6U1rKJpA==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.13.0
     dependencies:
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       tslib: 2.5.2
     dev: true
 
@@ -2349,7 +2349,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       shell-quote: 1.8.1
       supports-color: 8.1.1
       tree-kill: 1.2.2
@@ -4241,7 +4241,7 @@ packages:
       ansi-escapes: 4.3.2
       mute-stream: 2.0.0
       run-async: 3.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     dev: true
 
   /inquirer/7.3.3:
@@ -7338,10 +7338,10 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  /rxjs/7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
     dependencies:
-      tslib: 2.5.2
+      tslib: 2.6.2
     dev: true
 
   /safe-array-concat/1.0.1:
