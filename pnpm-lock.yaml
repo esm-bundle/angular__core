@@ -16,7 +16,7 @@ specifiers:
   patch-package: 8.0.0
   pinst: 3.0.0
   prettier: 2.8.8
-  pretty-quick: 4.1.0
+  pretty-quick: 4.1.1
   release-it: 18.1.2
   release-it-plugin-esm-bundle: 3.0.0
   rimraf: 6.0.1
@@ -38,7 +38,7 @@ devDependencies:
   patch-package: 8.0.0
   pinst: 3.0.0
   prettier: 2.8.8
-  pretty-quick: 4.1.0_prettier@2.8.8
+  pretty-quick: 4.1.1_prettier@2.8.8
   release-it: 18.1.2_typescript@5.8.3
   release-it-plugin-esm-bundle: 3.0.0_release-it@18.1.2
   rimraf: 6.0.1
@@ -1615,7 +1615,7 @@ packages:
     resolution: {integrity: sha512-x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==}
     engines: {node: '>=4'}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.8.1
     dev: true
 
   /astral-regex/1.0.0:
@@ -6562,10 +6562,6 @@ packages:
     resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
     dev: true
 
-  /picocolors/1.0.0:
-    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: true
-
   /picocolors/1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
     dev: true
@@ -6679,8 +6675,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/4.1.0_prettier@2.8.8:
-    resolution: {integrity: sha512-5v7Y4pQqEPQYZh3MQEOGvHbRCtAD47wI3nRJWyBCfBVkbONBTIotgAsTD6VWTAAfX1JJgRkYu7l/4C49SbuP+A==}
+  /pretty-quick/4.1.1_prettier@2.8.8:
+    resolution: {integrity: sha512-9Ud0l/CspNTmyIdYac9X7Inb3o8fuUsw+1zJFvCGn+at0t1UwUcUdo2RSZ41gcmfLv1fxgWQxWEfItR7CBwugg==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -8436,7 +8432,7 @@ packages:
     dependencies:
       browserslist: 4.21.7
       escalade: 3.1.1
-      picocolors: 1.0.0
+      picocolors: 1.1.1
     dev: true
 
   /update-notifier/4.1.1:
