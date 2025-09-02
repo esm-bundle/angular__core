@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 overrides:
-  terser: 5.43.1
+  terser: 5.44.0
 
 specifiers:
   '@angular/compiler': 16.0.5
@@ -1502,8 +1502,8 @@ packages:
     hasBin: true
     dev: true
 
-  /acorn/8.14.1:
-    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
+  /acorn/8.15.0:
+    resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -7264,7 +7264,7 @@ packages:
       rollup: 2.79.2
       rollup-pluginutils: 2.8.2
       serialize-javascript: 4.0.0
-      terser: 5.43.1
+      terser: 5.44.0
     dev: true
 
   /rollup-plugin-terser/7.0.2_rollup@2.79.2:
@@ -7277,7 +7277,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.2
       serialize-javascript: 4.0.0
-      terser: 5.43.1
+      terser: 5.44.0
     dev: true
 
   /rollup-pluginutils/2.8.2:
@@ -8078,13 +8078,13 @@ packages:
       supports-hyperlinks: 2.3.0
     dev: true
 
-  /terser/5.43.1:
-    resolution: {integrity: sha512-+6erLbBm0+LROX2sPXlUYx/ux5PyE9K/a92Wrt6oA+WDAoFTdpHE5tCYCI5PNzq2y8df4rA+QgHLJuR4jNymsg==}
+  /terser/5.44.0:
+    resolution: {integrity: sha512-nIVck8DK+GM/0Frwd+nIhZ84pR/BX7rmXMfYwyg+Sri5oGVE99/E3KvXqpC2xHFxyqXyGHTKBSioxxplrO4I4w==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.3
-      acorn: 8.14.1
+      acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
