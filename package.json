@@ -56,7 +56,7 @@
     "rollup": "2.80.0",
     "rollup-plugin-terser": "7.0.2",
     "rxjs": "7.8.2",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "pnpm": {
     "overrides": {
